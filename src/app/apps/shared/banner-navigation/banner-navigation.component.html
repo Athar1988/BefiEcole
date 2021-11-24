@@ -1,0 +1,53 @@
+<div class="collapse navbar-collapse hover-dropdown font-14 ml-auto" id="h6-info">
+    <ul class="navbar-nav ml-auto  align-items-center">
+
+
+        <li class="nav-item" [routerLinkActive]="['active']">
+            <a class="nav-link" routerLink="/">
+                Home
+            </a>
+        </li>
+
+
+
+      <li class="nav-item dropdown" [routerLinkActive]="['active']">
+        <a class="nav-link dropdown-toggle" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" routerLink="/">
+          Pourquoi BEFI ?
+        </a>
+        <div class="dropdown-menu"  aria-labelledby="dropdown03">
+          <a  class="dropdown-item" (click)="quinous('quinous/')">Qui sommes nous?</a>
+          <a  class="dropdown-item" (click)="quinous('engage')">IFT S’engage</a>
+          <a  class="dropdown-item" (click)="quinous('solutions')">Les solutions IFT</a>
+          <a  class="dropdown-item" (click)="quinous('pedagogie')">Pédagogie</a>
+          <a  class="dropdown-item" (click)="quinous('partenaires')">Nos Partenaires</a>
+        </div>
+      </li>
+
+      <li class="nav-item" [routerLinkActive]="['active']">
+        <a class="nav-link" routerLink="/">
+          Formations
+        </a>
+      </li>
+      <li class="nav-item" [routerLinkActive]="['active']">
+        <a class="nav-link" routerLink="/">
+          Etudiants Internationaux
+        </a>
+      </li>
+      <li class="nav-item" [routerLinkActive]="['active']">
+        <a class="nav-link" routerLink="/inscrientreprise">
+          Espace Entreprises
+        </a>
+      </li>
+        <li class="nav-item" [routerLinkActive]="['active']">
+            <a class="nav-link" routerLink="/about">
+              Contact
+            </a>
+        </li>
+        <li class="nav-item" [routerLinkActive]="['active']">
+            <a class="btn btn-danger-gradiant font-14" target="_blank" href="https://www.wrappixel.com/free-wrapkit-angular-blog">
+              Inscriptionnnn
+            </a>
+        </li>
+    </ul>
+
+</div>
