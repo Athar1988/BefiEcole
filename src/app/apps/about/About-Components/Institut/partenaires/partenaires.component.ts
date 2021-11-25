@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./partenaires.component.css']
 })
 export class PartenairesComponent implements OnInit {
-
+  //fakeArray = new Array('1','2','3','4','5');
   constructor() { }
 
   ngOnInit(): void {

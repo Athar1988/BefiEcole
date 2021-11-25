@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./engage.component.css']
 })
 export class EngageComponent implements OnInit {
+  imagePath='../assets/images/innerpage/qui-sommes.jpg';
 
   constructor() { }
 

@@ -24,6 +24,15 @@ import {EngageComponent} from './about/About-Components/Institut/engage/engage.c
 import {SolutionsComponent} from './about/About-Components/Institut/solutions/solutions.component';
 import {PedagogieComponent} from './about/About-Components/Institut/pedagogie/pedagogie.component';
 import {PartenairesComponent} from './about/About-Components/Institut/partenaires/partenaires.component';
+import {SurmesureComponent} from './blog/formation/surmesure/surmesure.component';
+import {BtpventeComponent} from './blog/formationbtp/btpvente/btpvente.component';
+import {BtpgestionComponent} from './blog/formationbtp/btpgestion/btpgestion.component';
+import {BtpComptableComponent} from './blog/formationbtp/btp-comptable/btp-comptable.component';
+import {BtpCommerceComponent} from './blog/formationbtp/btp-commerce/btp-commerce.component';
+import {BtpInfographieComponent} from './blog/formationbtp/btp-infographie/btp-infographie.component';
+import {BtpmultimediaComponent} from './blog/formationbtp/btpmultimedia/btpmultimedia.component';
+import {BtpdouanieresComponent} from './blog/formationbtp/btpdouanieres/btpdouanieres.component';
+import {BtpPatisserieComponent} from './blog/formationbtp/btp-patisserie/btp-patisserie.component';
 
 
 const routes: Routes = [
@@ -32,6 +41,7 @@ const routes: Routes = [
     component: FullComponent,
     children: [
       { path: '', component: BlogComponent },
+
       { path: 'commerce/:id', component: CommerceComponent },
       { path: 'multimédia/:id', component: MultimediaComponent },
       { path: 'reseau/:id', component: ReseauComponent },
@@ -41,13 +51,24 @@ const routes: Routes = [
       { path: 'direction/:id', component: DirectionComponent },
       { path: 'finance/:id', component: FinanceComponent },
 
+
+      { path: 'ventebtp', component: BtpventeComponent },
+      { path: 'gestionbtp', component: BtpgestionComponent },
+      { path: 'comptablebtp', component: BtpComptableComponent },
+      { path: 'commercebtp', component: BtpCommerceComponent },
+      { path: 'infographiebtp', component: BtpInfographieComponent },
+      { path: 'multimediabtp', component: BtpmultimediaComponent },
+      { path: 'douanieresbtp', component: BtpdouanieresComponent },
+      { path: 'patisseriebtp', component: BtpPatisserieComponent },
+
+
       { path: 'about', component: AboutComponent },
 
       { path: 'lavie', component: LavieComponent },
       { path: 'stage', component: StageComponent },
       { path: 'galerie', component: GalerieComponent },
 
-      { path: '', component: QuinousComponent },
+
       { path: 'quinous', component: QuinousComponent },
       { path: 'engage', component: EngageComponent },
       { path: 'solutions', component: SolutionsComponent },

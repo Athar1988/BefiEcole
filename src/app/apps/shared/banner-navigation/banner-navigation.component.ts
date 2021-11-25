@@ -20,4 +20,8 @@ export class BannerNavigationComponent implements OnInit {
   quinous(id: string) {
     this.router.navigate([id]);
   }
+
+  formation(formation: string) {
+    this.router.navigate([formation]);
+  }
 }

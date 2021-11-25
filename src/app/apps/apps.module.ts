@@ -31,6 +31,15 @@ import { EngageComponent } from './about/About-Components/Institut/engage/engage
 import { SolutionsComponent } from './about/About-Components/Institut/solutions/solutions.component';
 import { PedagogieComponent } from './about/About-Components/Institut/pedagogie/pedagogie.component';
 import { PartenairesComponent } from './about/About-Components/Institut/partenaires/partenaires.component';
+import { SurmesureComponent } from './blog/formation/surmesure/surmesure.component';
+import { BtpComptableComponent } from './blog/formationbtp/btp-comptable/btp-comptable.component';
+import { BtpCommerceComponent } from './blog/formationbtp/btp-commerce/btp-commerce.component';
+import { BtpInfographieComponent } from './blog/formationbtp/btp-infographie/btp-infographie.component';
+import { BtpmultimediaComponent } from './blog/formationbtp/btpmultimedia/btpmultimedia.component';
+import { BtpdouanieresComponent } from './blog/formationbtp/btpdouanieres/btpdouanieres.component';
+import { BtpPatisserieComponent } from './blog/formationbtp/btp-patisserie/btp-patisserie.component';
+import { BtpventeComponent } from './blog/formationbtp/btpvente/btpvente.component';
+import { BtpgestionComponent } from './blog/formationbtp/btpgestion/btpgestion.component';
 
 @NgModule({
   declarations: [
@@ -61,6 +70,15 @@ import { PartenairesComponent } from './about/About-Components/Institut/partenai
     SolutionsComponent,
     PedagogieComponent,
     PartenairesComponent,
+    SurmesureComponent,
+    BtpComptableComponent,
+    BtpCommerceComponent,
+    BtpInfographieComponent,
+    BtpmultimediaComponent,
+    BtpdouanieresComponent,
+    BtpPatisserieComponent,
+    BtpventeComponent,
+    BtpgestionComponent,
   ],
   imports: [
     CommonModule,
