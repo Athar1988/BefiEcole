@@ -6,73 +6,189 @@
     <!-- Row  -->
     <div class="row justify-content-center">
       <!-- Column -->
-      <div class="col-lg-9 col-md-6 no-trans align-self-center text-center">
-        <h1 class="title">ABOUT PAGE</h1>
+      <div class="col-lg-9 col-md-6 align-self-center text-center">
+        <h1 class="title">Formations BTP</h1>
+        <h5 class="subtitle op-5">
+          Modules techniques de la formation en pâtisserie
+        </h5>
       </div>
       <!-- Column -->
     </div>
   </div>
 </div>
 
-<!-- ============================================================== -->
-<!-- Feature 22  -->
-<!-- ============================================================== -->
+<!-- Row  -->
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-8 no-trans">
+      <div class="mini-spacer">
+        <div class="d-flex align-items-center text-uppercase m-t-40 font-13 font-medium" ><div class="ml-auto">
+        </div>
+        </div>
 
-<div class="spacer feature22">
-  <div class="container">
-    <app-top-content></app-top-content>
-  </div>
-</div>
-<!-- ============================================================== -->
-<!-- End Feature 22  -->
-<!-- ============================================================== -->
-<!-- ============================================================== -->
-<!-- Feature 1  -->
-<!-- ============================================================== -->
-<div class="bg-light spacer feature1">
-  <div class="container">
-    <!-- Row  -->
-    <div class="row justify-content-center">
-      <div class="col-md-7 text-center no-trans">
-        <h2 class="title">Create beautiful Websites in Record Time</h2>
-        <h6 class="subtitle">
-          You can relay on our amazing features list and also our customerrrrrrrrrrrrrrrrrrrrrrr
-          services will be great experience for you without doubt and in no-time
-        </h6>
-      </div>
-    </div>
-    <app-relay-on></app-relay-on>
-  </div>
-</div>
-<!-- ============================================================== -->
-<!-- End Feature 1  -->
-<!-- ============================================================== -->
-
-<!-- ============================================================== -->
-<!-- Call to action -->
-<!-- ============================================================== -->
-<div class="spacer">
-  <div class="container">
-    <div class="row justify-content-center m-b-30">
-      <div class="col-md-7 text-center no-trans">
-        <h2 class="title">
-          Are you happy with what we offer? Grab your WrapKit Angular Blog Copy
-          Now
+        <h2 class="title font-light">
+          Nous sommes là pour vous renseigner, alors n’hésitez pas !
         </h2>
-        <h6 class="subtitle">
-          Yeah ! Its pretty cool about what you are offering and i starterd to
-          feel in love with your Amazing UI Kit. I want it Yea!
-        </h6>
-        <a
-          class="btn btn-info-gradiant btn-md btn-arrow m-t-20"
-          data-toggle="collapse"
-          href="#"
-          ><span>View Details <i class="ti-arrow-right"></i></span
-        ></a>
+        <ul class="text-justify">
+          <li>Vous avez besoin d’un renseignement, vous remplissez le formulaire, nous vous répondrons dans les plus brefs délais.</li>
+          <li>Vous souhaitez intégrer l’IFT, c’est le moment de s’inscrire ! Téléchargez les dossiers d’inscription 2016-2017 et renvoyez le rempli avec les documents demandés.</li>
+        </ul>
+        <p class="m-t-30 m-b-30" class="text-justify">
+          Dès la réception, nous prendrons contact avec vous pour vous proposer des dates d’entretien de motivation.
+          Ce rendez-vous a aussi pour objet de vous accompagner dans votre orientation et de répondre à vos questions. A cette occasion, des tests de positionnement vous seront proposés. Ces tests n’ont pas besoin d’être préparés, ils nous permettront de mieux vous connaitre.
+        </p>
+
+
+        <form #contactForm="ngForm" id="commentForm" class="cmxform" method="post" action="submit-envoi.php" novalidate="novalidate">
+          <fieldset>
+            <div class="form-group">
+
+
+              <div>
+                <label for="nom">Nom</label>
+                <input
+                  [(ngModel)]="nom"
+                  type="text"
+                  #nomInput="ngModel"
+                  required
+                  ngModel
+                  id="nom"
+                  name="nom"
+                  minlength="3"
+                  type="text"
+                  class="form-control"
+                  placeholder="nom"
+                  required=""
+                  aria-required="true"
+                >
+                <div
+                  *ngIf="nomInput.invalid && nomInput.dirty"
+                  class="alert alert-danger"
+                >
+                  champs obligatoire et au moins 3 caractéres
+                </div>
+              </div>
+
+
+
+              <div>
+                <label for="email">Email</label>
+                <input
+                  [(ngModel)]="email"
+                  type="email"
+                  #emailInput="ngModel"
+                  required
+                  email
+                  ngModel
+                  name="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="name@example.com"
+                >
+                <div
+                  *ngIf="emailInput.invalid && emailInput.dirty"
+                  class="alert alert-danger"
+                >
+                  L'email est obliogatoire et doit être correct
+                </div>
+              </div>
+
+
+              <div>
+                <label for="telephone">Téléphone</label>
+                <input
+                  [(ngModel)]="telephone"
+                  type="text"
+                  #objetInput="ngModel"
+                  required
+                  ngModel
+                  id="telephone"
+                  name="telephone"
+                  minlength="2"
+                  type="text"
+                  class="form-control"
+                  placeholder="+216 000 000"
+                  required=""
+                  aria-required="true">
+              </div>
+
+              <div>
+                <label for="objet">Objet</label>
+                <input
+                  [(ngModel)]="objet"
+                  type="text"
+                  #objetInput="ngModel"
+                  required
+                  ngModel
+                  id="objet"
+                  name="objet"
+                  minlength="2"
+                  type="text"
+                  class="form-control"
+                  placeholder="objet"
+                  required=""
+                  aria-required="true">
+              </div>
+
+
+              <div>
+                <label for="message">Message</label>
+                <textarea
+                  [(ngModel)]="message"
+                  type="text"
+                  #messageInput="ngModel"
+                  required
+                  ngModel
+                  class="form-control"
+                  name="message"
+                  id="message"
+                  rows="3"
+                  placeholder="message"
+                >
+                </textarea>
+              </div>
+
+
+              <div>
+              <ngx-recaptcha2
+                id="captcha"
+                #captchaElem
+                   required
+                ngModel
+                  [siteKey]="siteKey"
+                  formControlName="recaptcha">
+              </ngx-recaptcha2>
+              </div>
+
+
+              <input
+                (click)=" ajoutContact(contactForm.value)"
+                [disabled]="contactForm.invalid"
+                name="submit"
+                type="submit"
+                value="Envoyer"
+              >
+            </div>
+          </fieldset>
+
+        </form>
+
+
+
+          <div class="container-fluid py-3">
+
+        <div class="m-t-30">
+          <button type="button" class="btn bg-facebook btn-rounded mr-3">
+            <i class="fa fa-facebook"></i> Facebook
+          </button>
+          <button type="button" class="btn bg-twitter btn-rounded">
+            <i class="fa fa-twitter"></i> Twitter
+          </button>
+        </div>
+
       </div>
     </div>
   </div>
+  <!-- Row  -->
 </div>
-<!-- ============================================================== -->
-<!-- End Call to action -->
-<!-- ============================================================== -->
+</div>

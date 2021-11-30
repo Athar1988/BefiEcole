@@ -6,6 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./inscri-entreprise.component.css']
 })
 export class InscriEntrepriseComponent implements OnInit {
+
+  nom = '';
+  message = '';
+  objet = '';
+  email = '';
+  captcha='';
+  telephone='';
   constructor() { }
 
   ngOnInit(): void {

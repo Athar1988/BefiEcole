@@ -40,6 +40,9 @@ import { BtpdouanieresComponent } from './blog/formationbtp/btpdouanieres/btpdou
 import { BtpPatisserieComponent } from './blog/formationbtp/btp-patisserie/btp-patisserie.component';
 import { BtpventeComponent } from './blog/formationbtp/btpvente/btpvente.component';
 import { BtpgestionComponent } from './blog/formationbtp/btpgestion/btpgestion.component';
+import { NgxCaptchaModule } from 'ngx-captcha';
+import { InscriptionEtudiantComponent } from './about/About-Components/Institut/inscription-etudiant/inscription-etudiant.component';
+
 
 @NgModule({
   declarations: [
@@ -79,6 +82,7 @@ import { BtpgestionComponent } from './blog/formationbtp/btpgestion/btpgestion.c
     BtpPatisserieComponent,
     BtpventeComponent,
     BtpgestionComponent,
+    InscriptionEtudiantComponent,
   ],
   imports: [
     CommonModule,
@@ -87,7 +91,10 @@ import { BtpgestionComponent } from './blog/formationbtp/btpgestion/btpgestion.c
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
+    ReactiveFormsModule,
+    NgxCaptchaModule,
   ],
-  providers: [ServiceblogService],
+  providers: [ServiceblogService,
+   ],
 })
 export class AppsModule {}

@@ -7,7 +7,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CommerceComponent } from './apps/blog/formation/commerce/commerce.component';
 
-
+import { environment } from '../environments/environment';
+import {NgxCaptchaModule} from 'ngx-captcha';
 
 
 
@@ -23,7 +24,8 @@ import { CommerceComponent } from './apps/blog/formation/commerce/commerce.compo
     HttpClientModule,
     NgbModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgxCaptchaModule
   ],
   providers: [],
   bootstrap: [AppComponent]

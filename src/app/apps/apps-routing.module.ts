@@ -33,6 +33,7 @@ import {BtpInfographieComponent} from './blog/formationbtp/btp-infographie/btp-i
 import {BtpmultimediaComponent} from './blog/formationbtp/btpmultimedia/btpmultimedia.component';
 import {BtpdouanieresComponent} from './blog/formationbtp/btpdouanieres/btpdouanieres.component';
 import {BtpPatisserieComponent} from './blog/formationbtp/btp-patisserie/btp-patisserie.component';
+import {InscriptionEtudiantComponent} from './about/About-Components/Institut/inscription-etudiant/inscription-etudiant.component';
 
 
 const routes: Routes = [
@@ -76,7 +77,7 @@ const routes: Routes = [
       { path: 'partenaires', component: PartenairesComponent },
 
 
-
+      { path: 'inscriptionEtudiant', component: InscriptionEtudiantComponent },
       { path: 'inscrientreprise', component: InscriEntrepriseComponent },
 
     ]
