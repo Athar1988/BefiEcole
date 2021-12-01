@@ -81,12 +81,12 @@
                     *ngIf="filiereInput.invalid && filiereInput.dirty"
                     class="alert alert-danger"
                   >
-                    Il faut saisie votre filiére préfére
+                    Il faut saisie votre filière préférée
                   </div>
               </div>
 
                 <div>
-                  <label for="nom">Nom & prénom</label>
+                  <label for="nom">Nom</label>
                   <input
                     [(ngModel)]="nom"
                     type="text"
@@ -98,7 +98,7 @@
                     minlength="3"
                     type="text"
                     class="form-control"
-                    placeholder="Nom & prénom"
+                    placeholder="Votre Nom"
                     required=""
                     aria-required="true"
                   >
@@ -109,6 +109,33 @@
                     champs obligatoire et au moins 3 caractéres
                   </div>
                 </div>
+
+
+                <div>
+                  <label for="prenom">Prénom</label>
+                  <input
+                    [(ngModel)]="prenom"
+                    type="text"
+                    #prenomInput="ngModel"
+                    required
+                    ngModel
+                    id="prenom"
+                    name="prenom"
+                    minlength="3"
+                    type="text"
+                    class="form-control"
+                    placeholder="Votre Prénom"
+                    required=""
+                    aria-required="true"
+                  >
+                  <div
+                    *ngIf="prenomInput.invalid && prenomInput.dirty"
+                    class="alert alert-danger"
+                  >
+                    champs obligatoire et au moins 3 caractéres
+                  </div>
+                </div>
+
 
 
                 <div>
@@ -144,6 +171,7 @@
                     [(ngModel)]="datenaissance"
                     type="date"
                     #dateInput="ngModel"
+                    required
                     ngModel
                     id="datenaissance"
                     class="form-control"
@@ -164,6 +192,7 @@
                     #lieuInput="ngModel"
                     [(ngModel)]="lieudenaissance"
                     type="text"
+                    required
                     ngModel
                     id="lieudenaissance"
                     class="form-control"
@@ -222,6 +251,7 @@
                   <input
                     [(ngModel)]="adresse"
                     type="text"
+                    required
                     ngModel
                     id="adresse"
                     class="form-control"
@@ -243,6 +273,7 @@
                   <input
                     [(ngModel)]="ville"
                     type="text"
+                    required
                     ngModel
                     id="ville"
                     class="form-control"
@@ -540,7 +571,7 @@
                     Il faut saisie votre niveau d'étude
                   </div>
                 </div>
-                0
+
 
                 <div>
                   <label for="email">Email</label>
@@ -583,11 +614,15 @@
 
                 <div>
                   <ngx-recaptcha2
+                    required
                     id="captcha"
                     #captchaElem
                     required
                     ngModel
-                    formControlName="recaptcha">
+                    [siteKey]="siteKey"
+                    formControlName="recaptcha"
+                    class="form-control"
+                  >
                   </ngx-recaptcha2>
                 </div>
 
@@ -599,6 +634,7 @@
                   type="submit"
                   value="Envoyer"
                 >
+
               </div>
             </fieldset>
 
@@ -615,7 +651,24 @@
 </div>
 <!-- ============================================================== -->
 <!-- End Feature 22  -->
-<!-- ============================================================== -->
+<!-- ===========================
+
+id
+filiere: "BTP Informatique de Gestion"
+nom: "Hakim"
+prenom: "athar"
+telephone: "55385529"
+datenaissance: "2021-12-12"
+lieudenaissance: "sfax"
+nationalite: "tunisienne"
+adresse: "l'aouina tunis 2045"
+ville: "Tunis"
+pays: "Afghanistan"
+niveauetude: "CAP, DNB, CFG"
+email: "iii@lll.xn--f-7ga"
+message: ""
+
+=================================== -->
 
 
 

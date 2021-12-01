@@ -25,7 +25,7 @@ import {NgxCaptchaModule} from 'ngx-captcha';
     NgbModule,
     FormsModule,
     ReactiveFormsModule,
-    NgxCaptchaModule
+    NgxCaptchaModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

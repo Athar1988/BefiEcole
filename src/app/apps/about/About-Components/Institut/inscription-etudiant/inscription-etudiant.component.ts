@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {ToastService} from '../../../../services/toast.service';
+import {FormBuilder, FormGroup, Validators} from '@angular/forms';
 
 @Component({
   selector: 'app-inscription-etudiant',
@@ -8,6 +10,7 @@ import { Component, OnInit } from '@angular/core';
 export class InscriptionEtudiantComponent implements OnInit {
   filiere='';
   nom = '';
+  prenom='';
   telephone='';
   datenaissance='';
   lieudenaissance='';
@@ -19,13 +22,31 @@ export class InscriptionEtudiantComponent implements OnInit {
   message = '';
   email = '';
   captcha='';
+  public aFormGroup!: FormGroup;
+  public siteKey: any;
+  trouve=false;
+  constructor(public toastService: ToastService, public formBuilder: FormBuilder) {}
 
-  constructor() { }
 
   ngOnInit(): void {
+    console.log(this.aFormGroup+" avant");
+    this.aFormGroup = this.formBuilder.group({
+      recaptcha: ['', Validators.required]
+    });
+    console.log(this.aFormGroup+" apres");
+    this.siteKey = "6LdMol4dAAAAAJn1IE3V1Dv4cjoudpjgzPB_Gu0g";
+    this.trouve=true;
   }
 
-  ajoutEtudiant(value: any) {
+  /*ajoutEtudiant(value: any) {
     console.log(value);
-  }
+   // this.toaster.success(`L'inscription de {value.nom} {value.prenom} a été ajuoté avec succès`);
+    this.router.navigate(['']);
+  }*/
+
+  ajoutEtudiant(value: any) {
+     console.log(value);
+     }
+
+
 }

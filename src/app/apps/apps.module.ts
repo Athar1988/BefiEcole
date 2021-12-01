@@ -43,7 +43,6 @@ import { BtpgestionComponent } from './blog/formationbtp/btpgestion/btpgestion.c
 import { NgxCaptchaModule } from 'ngx-captcha';
 import { InscriptionEtudiantComponent } from './about/About-Components/Institut/inscription-etudiant/inscription-etudiant.component';
 
-
 @NgModule({
   declarations: [
     AppsComponent,

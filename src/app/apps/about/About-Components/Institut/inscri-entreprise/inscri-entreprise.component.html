@@ -33,13 +33,261 @@
       </div>
       <!-- Column -->
 
-
-
       <!-- Column -->
       <div class="col-lg-12 no-trans">
         <div class="text-box">
           <h1 style="font-size: 14pt; color: #10b1d4;">INSCRIPTION</h1>
-         formulaire
+
+
+          <form #entrepriseForm="ngForm" id="commentForm" class="cmxform" method="post" action="submit-envoi.php" novalidate="novalidate">
+            <fieldset>
+              <div class="form-group">
+
+
+                <div>
+                  <label>Civilité</label>
+                  <select
+                    class="select-contact"
+                    [(ngModel)]="civilite"
+                    class="form-control"
+                    id="civilite"
+                    #civiliteInput="ngModel"
+                    name="civilite"
+                    placeholder="choisir votre Civilité"
+                    required
+                    ngModel
+
+                  >
+                    <option value="">-- Sélectionnez -- </option>
+                    <option Value="BTP Informatique de Gestion">Monsieur</option>
+                    <option Value="BTP Comptable d’entreprise">Madame</option>
+                    <option Value="BTP Commerce de distribution">Mademoiselle</option>
+                  </select>
+                  <div
+                    *ngIf="civiliteInput.invalid && civiliteInput.dirty"
+                    class="alert alert-danger"
+                  >
+                    Il faut saisie votre filière préférée
+                  </div>
+                </div>
+
+
+
+                <div>
+                  <label for="nom">Nom</label>
+                  <input
+                    [(ngModel)]="nom"
+                    type="text"
+                    #nomInput="ngModel"
+                    required
+                    ngModel
+                    id="nom"
+                    name="nom"
+                    minlength="3"
+                    type="text"
+                    class="form-control"
+                    placeholder="Saisir votre Nom"
+                    required=""
+                    aria-required="true"
+                  >
+                  <div
+                    *ngIf="nomInput.invalid && nomInput.dirty"
+                    class="alert alert-danger"
+                  >
+                    Champs obligatoire et au moins 3 caractéres
+                  </div>
+                </div>
+
+
+
+                <div>
+                  <label for="prenom">Prénom</label>
+                  <input
+                    [(ngModel)]="prenom"
+                    type="text"
+                    #prenomInput="ngModel"
+                    required
+                    ngModel
+                    id="prenom"
+                    name="prenom"
+                    minlength="3"
+                    type="text"
+                    class="form-control"
+                    placeholder="Saisir votre Prénom"
+                    required=""
+                    aria-required="true"
+                  >
+                  <div
+                    *ngIf="prenomInput.invalid && prenomInput.dirty"
+                    class="alert alert-danger"
+                  >
+                    Champs obligatoire et au moins 3 caractéres
+                  </div>
+                </div>
+
+
+
+                <div>
+                  <label for="telephone">Téléphone</label>
+                  <input
+                    [(ngModel)]="telephone"
+                    type="tel"
+                    #telephoneInput="ngModel"
+                    required
+                    ngModel
+                    pattern="[0-9]{8}"
+                    id="telephone"
+                    name="telephone"
+                    length="12"
+                    type="text"
+                    class="form-control"
+                    placeholder="00 000 000"
+                    required=""
+                    aria-required="true">
+                  <div
+                    *ngIf="telephoneInput.invalid && telephoneInput.dirty"
+                    class="alert alert-danger"
+                  >
+                    Le téléphone est obliogatoire et doit être correct
+                  </div>
+                </div>
+
+
+                <div>
+                  <label for="modile">Mobile (facultatif)</label>
+                  <input
+                    [(ngModel)]="modile"
+                    type="tel"
+                    #modileInput="ngModel"
+                    ngModel
+                    pattern="[0-9]{8}"
+                    id="modile"
+                    name="modile"
+                    length="12"
+                    type="text"
+                    class="form-control"
+                    placeholder="00 000 000"
+                    required=""
+                    aria-required="true">
+
+                </div>
+
+
+
+                <div>
+                  <label for="activite">Activité</label>
+                  <input
+                    #activiteInput="ngModel"
+                    [(ngModel)]="activite"
+                    type="text"
+                    required
+                    ngModel
+                    id="activite"
+                    class="form-control"
+                    placeholder="Siaisir votre activité"
+                    name="activite">
+                  <div
+                    *ngIf="activiteInput.invalid && activiteInput.dirty"
+                    class="alert alert-danger"
+                  >
+                    Il faut saisie votre activité
+                  </div>
+                </div>
+
+
+
+                <div>
+                  <label for="fonction">Fonction</label>
+                  <input
+                    [(ngModel)]="fonction"
+                    type="text"
+                    required
+                    ngModel
+                    id="fonction"
+                    class="form-control"
+                    placeholder="Saisir votre fonction"
+                    name="fonction"
+                    #fonctionInput="ngModel"
+                  >
+                  <div
+                    *ngIf="fonctionInput.invalid && fonctionInput.dirty"
+                    class="alert alert-danger"
+                  >
+                    Il faut saisie votre fonction
+                  </div>
+                </div>
+
+
+                <div>
+                  <label for="email">Email</label>
+                  <input
+                    [(ngModel)]="email"
+                    type="email"
+                    #emailInput="ngModel"
+                    required
+                    email
+                    ngModel
+                    name="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="name@example.com"
+                  >
+                  <div
+                    *ngIf="emailInput.invalid && emailInput.dirty"
+                    class="alert alert-danger"
+                  >
+                    L'email est obliogatoire et doit être correct
+                  </div>
+                </div>
+
+                <div>
+                  <label for="message">Description de votre demande</label>
+                  <textarea
+                    [(ngModel)]="message"
+                    type="text"
+                    #messageInput="ngModel"
+                    ngModel
+                    class="form-control"
+                    name="message"
+                    id="message"
+                    rows="3"
+                    placeholder="message"
+                  >
+                </textarea>
+                </div>
+
+
+                <div>
+                  <ngx-recaptcha2
+                    required
+                    id="captcha"
+                    #captchaElem
+                    required
+                    ngModel
+                    [siteKey]="siteKey"
+                    formControlName="recaptcha"
+                    class="form-control"
+                  >
+                  </ngx-recaptcha2>
+                </div>
+
+                <div>
+                <input
+                  (click)=" ajoutEtreprise(entrepriseForm.value)"
+                  [disabled]="entrepriseForm.invalid"
+                  name="submit"
+                  type="submit"
+                  value="Envoyer"
+                >
+                </div>
+
+
+              </div>
+            </fieldset>
+
+          </form>
+
+
         </div>
       </div>
       <!-- Column -->
