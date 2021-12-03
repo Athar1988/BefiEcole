@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import {ToastService} from '../../../../services/toast.service';
 import {FormBuilder, FormGroup, Validators} from '@angular/forms';
+import {ServiceService} from '../../../../services/service.service';
+import {Etudiant} from '../../../../Modele/Etudiant';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-inscription-etudiant',
@@ -25,7 +28,10 @@ export class InscriptionEtudiantComponent implements OnInit {
   public aFormGroup!: FormGroup;
   public siteKey: any;
   trouve=false;
-  constructor(public toastService: ToastService, public formBuilder: FormBuilder) {}
+  constructor(public toastService: ToastService,
+              public formBuilder: FormBuilder,
+              public service: ServiceService,
+              public router:Router) {}
 
 
   ngOnInit(): void {
@@ -44,9 +50,19 @@ export class InscriptionEtudiantComponent implements OnInit {
     this.router.navigate(['']);
   }*/
 
-  ajoutEtudiant(value: any) {
-     console.log(value);
-     }
+  ajoutEtudiant(etudiant: Etudiant) {
+    this.service.enregistrerEtudiant(etudiant).subscribe(
+      data=>{
+        console.log("etudiant ajouter avec succés");
+        // this.toaster.success("Message envoyé avec succé!");
+        this.router.navigate(['']);
+      },
+
+      err=>{
+        console.log("Probleme de saisir! essayez une autre fois.");
+        // this.toaster.error("Probleme de saisir! essayez une autre fois.");
+      });
+  }
 
 
 }

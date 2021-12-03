@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 import {FormBuilder, FormGroup, Validators} from '@angular/forms';
+import {ServiceService} from '../services/service.service';
+import {Contact} from '../Modele/Contact';
+import {Router} from '@angular/router';
 
 
 
@@ -16,16 +19,23 @@ export class AboutComponent {
   email = '';
   captcha='';
   telephone='';
+ // contact : Contact;
   public aFormGroup!: FormGroup;
   public siteKey: any;
 
-  constructor(public formBuilder: FormBuilder) {
+  title = 'Angular Google Maps Example';
+
+  lat = 13;
+  lng = 80;
+
+
+  constructor(public formBuilder: FormBuilder, private service: ServiceService, private router: Router) {
   }
 
-  title = 'recaptcha';
+
   trouve=false;
+
   ngOnInit() {
-    console.log(this.aFormGroup+" avant");
     this.aFormGroup = this.formBuilder.group({
       recaptcha: ['', Validators.required]
     });
@@ -35,10 +45,20 @@ export class AboutComponent {
   }
 
 
-  ajoutContact(value: any) {
-    console.log(value);
-    console.log(this.trouve);
+  ajoutContact(contact: Contact) {
+    console.log(contact);
+    this.service.enregistrerContact(contact).subscribe(
+      data=>{
+        console.log("contact ajouter avec succés");
+      // this.toaster.success("Message envoyé avec succé!");
+        this.router.navigate(['']);
+      },
+
+      err=>{
+        console.log("Probleme de saisir! essayez une autre fois.");
+       // this.toaster.error("Probleme de saisir! essayez une autre fois.");
+      });
   }
 
-
+//AIzaSyBi2q2VvTL9wJ2F9pp6ejqTO81Nh_G8oy8
 }

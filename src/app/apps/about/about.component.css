@@ -7,6 +7,11 @@ body {
   background-size: 100% 100%
 }
 
+agm-map {
+  height: 600px;
+}
+
+
 .card {
   padding: 10px 20px;
   margin-top: 60px;

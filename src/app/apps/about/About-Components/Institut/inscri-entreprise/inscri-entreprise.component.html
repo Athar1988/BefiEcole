@@ -246,6 +246,7 @@
                     [(ngModel)]="message"
                     type="text"
                     #messageInput="ngModel"
+                    required
                     ngModel
                     class="form-control"
                     name="message"
@@ -259,19 +260,16 @@
 
                 <div>
                   <ngx-recaptcha2
-                    required
                     id="captcha"
                     #captchaElem
                     required
                     ngModel
                     [siteKey]="siteKey"
-                    formControlName="recaptcha"
-                    class="form-control"
-                  >
+                    formControlName="recaptcha">
                   </ngx-recaptcha2>
                 </div>
 
-                <div>
+
                 <input
                   (click)=" ajoutEtreprise(entrepriseForm.value)"
                   [disabled]="entrepriseForm.invalid"
@@ -279,13 +277,11 @@
                   type="submit"
                   value="Envoyer"
                 >
-                </div>
-
-
               </div>
             </fieldset>
 
           </form>
+
 
 
         </div>

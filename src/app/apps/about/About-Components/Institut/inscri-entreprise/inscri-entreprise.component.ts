@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import {FormBuilder, FormGroup, Validators} from '@angular/forms';
 import {ToastService} from '../../../../services/toast.service';
+import {ServiceService} from '../../../../services/service.service';
+import {Router} from '@angular/router';
+import {Entreprise} from '../../../../Modele/Entreprise';
 
 @Component({
   selector: 'app-inscri-entreprise',
@@ -23,7 +26,10 @@ export class InscriEntrepriseComponent implements OnInit {
   trouve=false;
   captcha='';
 
-  constructor(public toastService: ToastService, public formBuilder: FormBuilder) {}
+  constructor(public toastService: ToastService,
+              public formBuilder: FormBuilder,
+              private service: ServiceService,
+              private router: Router) {}
 
   ngOnInit(): void {
     console.log(this.aFormGroup+" avant");
@@ -35,8 +41,17 @@ export class InscriEntrepriseComponent implements OnInit {
     this.trouve=true;
   }
 
-  ajoutEtreprise(value: any) {
-    console.log(value);
+  ajoutEtreprise(entreprise: Entreprise) {
+    this.service.enregistrerEntreprise(entreprise).subscribe(
+      data=>{
+        console.log("entreprise ajouter avec succés");
+        // this.toaster.success("Message envoyé avec succé!");
+        this.router.navigate(['']);
+      },
 
+      err=>{
+        console.log("Probleme de saisir! essayez une autre fois.");
+        // this.toaster.error("Probleme de saisir! essayez une autre fois.");
+      });
   }
 }
