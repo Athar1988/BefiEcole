@@ -7,10 +7,20 @@ body {
   background-size: 100% 100%
 }
 
-agm-map {
+
+#frugalmap {
   height: 600px;
+  width: 100%
 }
 
+
+.sebm-google-map-container {
+  height: 300px;
+}
+
+agm-map {
+  height: 300px;
+}
 
 .card {
   padding: 10px 20px;

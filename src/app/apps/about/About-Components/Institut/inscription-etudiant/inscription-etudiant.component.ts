@@ -3,7 +3,8 @@ import {ToastService} from '../../../../services/toast.service';
 import {FormBuilder, FormGroup, Validators} from '@angular/forms';
 import {ServiceService} from '../../../../services/service.service';
 import {Etudiant} from '../../../../Modele/Etudiant';
-import {Router} from '@angular/router';
+import {ActivatedRoute, Router} from '@angular/router';
+import {ToastrService} from 'ngx-toastr';
 
 @Component({
   selector: 'app-inscription-etudiant',
@@ -28,13 +29,19 @@ export class InscriptionEtudiantComponent implements OnInit {
   public aFormGroup!: FormGroup;
   public siteKey: any;
   trouve=false;
+  id: any;
   constructor(public toastService: ToastService,
               public formBuilder: FormBuilder,
               public service: ServiceService,
-              public router:Router) {}
+              public router:Router,
+              private activatedRouter: ActivatedRoute,
+              private toaster: ToastrService) {
+    this.id = activatedRouter.snapshot.paramMap.get('id');
+  }
 
 
   ngOnInit(): void {
+    console.log(this.id+" id");
     console.log(this.aFormGroup+" avant");
     this.aFormGroup = this.formBuilder.group({
       recaptcha: ['', Validators.required]
@@ -54,8 +61,10 @@ export class InscriptionEtudiantComponent implements OnInit {
     this.service.enregistrerEtudiant(etudiant).subscribe(
       data=>{
         console.log("etudiant ajouter avec succés");
-        // this.toaster.success("Message envoyé avec succé!");
-        this.router.navigate(['']);
+        this.toaster.info("Inscription envoyé avec succé!");
+        this.trouve=true;
+        console.log(this.trouve);
+        this.router.navigate(['inscriptionEtudiant',this.trouve]);
       },
 
       err=>{

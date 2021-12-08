@@ -62,13 +62,13 @@ const routes: Routes = [
       { path: 'douanieresbtp', component: BtpdouanieresComponent },
       { path: 'patisseriebtp', component: BtpPatisserieComponent },
 
-
       { path: 'about', component: AboutComponent },
+      { path: 'about/:id', component: AboutComponent },
+
 
       { path: 'lavie', component: LavieComponent },
       { path: 'stage', component: StageComponent },
       { path: 'galerie', component: GalerieComponent },
-
 
       { path: 'quinous', component: QuinousComponent },
       { path: 'engage', component: EngageComponent },
@@ -78,8 +78,9 @@ const routes: Routes = [
 
 
       { path: 'inscriptionEtudiant', component: InscriptionEtudiantComponent },
+      { path: 'inscriptionEtudiant/:id', component: InscriptionEtudiantComponent },
       { path: 'inscrientreprise', component: InscriEntrepriseComponent },
-
+      { path: 'inscrientreprise/:id', component: InscriEntrepriseComponent },
     ]
   }
 ];

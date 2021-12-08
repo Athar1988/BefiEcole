@@ -2,8 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import {FormBuilder, FormGroup, Validators} from '@angular/forms';
 import {ToastService} from '../../../../services/toast.service';
 import {ServiceService} from '../../../../services/service.service';
-import {Router} from '@angular/router';
+import {ActivatedRoute, Router} from '@angular/router';
 import {Entreprise} from '../../../../Modele/Entreprise';
+import {ToastrService} from 'ngx-toastr';
 
 @Component({
   selector: 'app-inscri-entreprise',
@@ -25,11 +26,16 @@ export class InscriEntrepriseComponent implements OnInit {
   public siteKey: any;
   trouve=false;
   captcha='';
-
+  id: any;
   constructor(public toastService: ToastService,
               public formBuilder: FormBuilder,
               private service: ServiceService,
-              private router: Router) {}
+              private router: Router,
+              private activatedRouter: ActivatedRoute,
+              private toaster: ToastrService
+              ) {
+    this.id = activatedRouter.snapshot.paramMap.get('id');
+  }
 
   ngOnInit(): void {
     console.log(this.aFormGroup+" avant");
@@ -46,7 +52,10 @@ export class InscriEntrepriseComponent implements OnInit {
       data=>{
         console.log("entreprise ajouter avec succés");
         // this.toaster.success("Message envoyé avec succé!");
-        this.router.navigate(['']);
+        this.toaster.info("Message envoyé avec succé!");
+        this.trouve=true;
+        console.log(this.trouve);
+        this.router.navigate(['inscrientreprise',this.trouve]);
       },
 
       err=>{

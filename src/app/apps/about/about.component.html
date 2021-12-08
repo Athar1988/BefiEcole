@@ -25,6 +25,9 @@
         <div class="d-flex align-items-center text-uppercase m-t-40 font-13 font-medium" ><div class="ml-auto">
         </div>
         </div>
+        <div *ngIf="id!=null" class="alert alert-success" role="alert">
+          Votre contact à été envoyé avec succé!
+        </div>
 
         <h2 class="title font-light">
           Nous sommes là pour vous renseigner, alors n’hésitez pas !
@@ -39,10 +42,6 @@
         </p>
 
 
-
-       <agm-map [latitude]="lat" [longitude]="lng">
-          <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
-        </agm-map>
 
 
         <form #contactForm="ngForm" id="commentForm" class="cmxform" method="post" action="submit-envoi.php" novalidate="novalidate">
@@ -157,15 +156,17 @@
 
               <div>
               <ngx-recaptcha2
-                id="captcha"
                 #captchaElem
-                   required
-                ngModel
-                  [siteKey]="siteKey"
-                  formControlName="recaptcha">
+                [siteKey]="siteKey"
+                (reset)="handleReset()"
+                (expire)="handleExpire()"
+                (success)="handleSuccess($event)"
+                [useGlobalDomain]="false"
+                formControlName="recaptcha"
+              >
               </ngx-recaptcha2>
+                <h6 *ngIf="messageerreur==1">vous etes un robe!!!</h6>
               </div>
-
 
               <input
                 (click)=" ajoutContact(contactForm.value)"
@@ -178,6 +179,37 @@
           </fieldset>
 
         </form>
+
+
+
+       <!--- <agm-map
+          [latitude]="latitude"
+          [longitude]="longitude"
+          [zoom]="zoom" >
+          <agm-marker
+            [latitude]="latitude"
+            [longitude]="longitude"></agm-marker>
+        </agm-map>
+
+        <agm-map [latitude]="lat" [longitude]="lng">
+          <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+        </agm-map>
+
+-->
+
+        <div style="text-align:center">
+          <h1>
+            Bienvenue sur Frugal Map
+          </h1>
+        </div>
+
+        <!-- Déclaration du conteneur de la carte avec l'id "frugalmap" -->
+        <div id="frugalmap">
+
+        </div>
+
+
+
 
 
           <div class="container-fluid py-3">

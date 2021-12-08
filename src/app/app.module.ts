@@ -8,8 +8,9 @@ import { AppComponent } from './app.component';
 import { CommerceComponent } from './apps/blog/formation/commerce/commerce.component';
 import { environment } from '../environments/environment';
 import {NgxCaptchaModule} from 'ngx-captcha';
-import { AgmCoreModule } from '@agm/core';
-
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {ToastrModule} from 'ngx-toastr';
+import {AgmCoreModule} from '@agm/core';
 
 @NgModule({
   declarations: [
@@ -23,10 +24,13 @@ import { AgmCoreModule } from '@agm/core';
     NgbModule,
     FormsModule,
     ReactiveFormsModule,
-    NgxCaptchaModule,AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyBi2q2VvTL9wJ2F9pp6ejqTO81Nh_G8oy8'
+    ToastrModule.forRoot(),
+    BrowserAnimationsModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyBi2q2VvTL9wJ2F9pp6ejqTO81Nh_G8oy8',
+      libraries: ['places']
     }),
-
+    NgxCaptchaModule
   ],
   providers: [],
   bootstrap: [AppComponent]
