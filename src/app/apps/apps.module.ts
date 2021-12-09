@@ -7,7 +7,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppsComponent } from './apps.component';
 import { BlogComponent } from './blog/blog.component';
 import { AboutComponent } from './about/about.component';
-import { BlogDetailComponent } from './blog/blog-detail/blog-detail.component';
 import { ServiceblogService } from './blog/blog-service.service';
 import { RelayOnComponent } from './about/About-Components/relay-on/relay-on.component';
 import { TopContentComponent } from './about/About-Components/top-content/top-content.component';
@@ -48,7 +47,6 @@ import { InscriptionEtudiantComponent } from './about/About-Components/Institut/
     AppsComponent,
     BlogComponent,
     AboutComponent,
-    BlogDetailComponent,
     RelayOnComponent,
     TopContentComponent,
     FullComponent,

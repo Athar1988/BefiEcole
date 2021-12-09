@@ -28,10 +28,9 @@ export class AboutComponent {
   h1='';
   id: any;
   trouve=false;
-  captcha=false;
   title: string = 'AGM project';
   messageerreur=0;
-
+  captcha=false;
   constructor(public formBuilder: FormBuilder,
               private service: ServiceService,
               private router: Router,
@@ -40,7 +39,6 @@ export class AboutComponent {
               ) {
     this.id = activatedRouter.snapshot.paramMap.get('id');
     this.siteKey='6LcbVIodAAAAAG2FECtHPeigiXOG_ghInhtBCs5c';
-    //this.theme='light';
   }
 
 
@@ -54,7 +52,7 @@ export class AboutComponent {
     const myIcon = L.icon({
       iconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/images/marker-icon.png'
     });
-    L.marker([34.73324, 10.75057], {icon: myIcon}).bindPopup('Je suis un Frugal Marqueur').addTo(myfrugalmap).openPopup();
+    L.marker([34.73324, 10.75057], {icon: myIcon}).bindPopup('Je suis IFT').addTo(myfrugalmap).openPopup();
 
 
     /* code de captcha*/
@@ -76,7 +74,6 @@ export class AboutComponent {
 
   }
   ajoutContact(contact: Contact) {
-
     if(this.captcha==true){
       this.messageerreur=0;
       console.log(contact);
@@ -88,7 +85,6 @@ export class AboutComponent {
           console.log(this.trouve);
           this.router.navigate(['about',this.trouve]);
         },
-
         err=>{
           console.log("Probleme de saisir! essayez une autre fois.");
           // this.toaster.error("Probleme de saisir! essayez une autre fois.");

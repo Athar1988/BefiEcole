@@ -3,7 +3,6 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { BlogComponent } from './blog/blog.component';
 import { AboutComponent } from './about/about.component';
-import { BlogDetailComponent } from './blog/blog-detail/blog-detail.component';
 
 
 import { FullComponent } from './layout/full/full.component';
@@ -24,7 +23,6 @@ import {EngageComponent} from './about/About-Components/Institut/engage/engage.c
 import {SolutionsComponent} from './about/About-Components/Institut/solutions/solutions.component';
 import {PedagogieComponent} from './about/About-Components/Institut/pedagogie/pedagogie.component';
 import {PartenairesComponent} from './about/About-Components/Institut/partenaires/partenaires.component';
-import {SurmesureComponent} from './blog/formation/surmesure/surmesure.component';
 import {BtpventeComponent} from './blog/formationbtp/btpvente/btpvente.component';
 import {BtpgestionComponent} from './blog/formationbtp/btpgestion/btpgestion.component';
 import {BtpComptableComponent} from './blog/formationbtp/btp-comptable/btp-comptable.component';

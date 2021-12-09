@@ -616,13 +616,16 @@
 
 
                 <div>
+                  <h6 *ngIf="messageerreur==1">Veuillez cocher la case ci-dessous pour continuer</h6>
                   <ngx-recaptcha2
-                    id="captcha"
                     #captchaElem
-                    required
-                    ngModel
                     [siteKey]="siteKey"
-                    formControlName="recaptcha">
+                    (reset)="handleReset()"
+                    (expire)="handleExpire()"
+                    (success)="handleSuccess($event)"
+                    [useGlobalDomain]="false"
+                    formControlName="recaptcha"
+                  >
                   </ngx-recaptcha2>
                 </div>
 

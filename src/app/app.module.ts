@@ -6,7 +6,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CommerceComponent } from './apps/blog/formation/commerce/commerce.component';
-import { environment } from '../environments/environment';
 import {NgxCaptchaModule} from 'ngx-captcha';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {ToastrModule} from 'ngx-toastr';

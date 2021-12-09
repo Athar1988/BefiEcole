@@ -25,11 +25,14 @@ export class InscriptionEtudiantComponent implements OnInit {
   niveauetude='';
   message = '';
   email = '';
-  captcha='';
   public aFormGroup!: FormGroup;
   public siteKey: any;
   trouve=false;
   id: any;
+  messageerreur=0;
+  captcha=false;
+
+
   constructor(public toastService: ToastService,
               public formBuilder: FormBuilder,
               public service: ServiceService,
@@ -56,21 +59,40 @@ export class InscriptionEtudiantComponent implements OnInit {
    // this.toaster.success(`L'inscription de {value.nom} {value.prenom} a été ajuoté avec succès`);
     this.router.navigate(['']);
   }*/
+  handleSuccess(data: any){
+    console.log(data);
+    this.captcha=true;
+  }
+
+  handleExpire(){
+
+  }
+  handleReset(){
+
+  }
+
 
   ajoutEtudiant(etudiant: Etudiant) {
-    this.service.enregistrerEtudiant(etudiant).subscribe(
-      data=>{
-        console.log("etudiant ajouter avec succés");
-        this.toaster.info("Inscription envoyé avec succé!");
-        this.trouve=true;
-        console.log(this.trouve);
-        this.router.navigate(['inscriptionEtudiant',this.trouve]);
-      },
+    if(this.captcha==true) {
+      this.messageerreur=0;
+      this.service.enregistrerEtudiant(etudiant).subscribe(
+        data => {
+          console.log("etudiant ajouter avec succés");
+          this.toaster.info("Inscription envoyé avec succé!");
+          this.trouve = true;
+          console.log(this.trouve);
+          this.router.navigate(['inscriptionEtudiant', this.trouve]);
+        },
 
-      err=>{
-        console.log("Probleme de saisir! essayez une autre fois.");
-        // this.toaster.error("Probleme de saisir! essayez une autre fois.");
-      });
+        err => {
+          console.log("Probleme de saisir! essayez une autre fois.");
+          // this.toaster.error("Probleme de saisir! essayez une autre fois.");
+        });
+    }
+    else{
+      this.messageerreur=1;
+      console.log("Probleme captcha.");
+    }
   }
 
 

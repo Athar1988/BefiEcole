@@ -25,8 +25,10 @@ export class InscriEntrepriseComponent implements OnInit {
   public aFormGroup!: FormGroup;
   public siteKey: any;
   trouve=false;
-  captcha='';
   id: any;
+  messageerreur=0;
+  captcha=false;
+
   constructor(public toastService: ToastService,
               public formBuilder: FormBuilder,
               private service: ServiceService,
@@ -35,6 +37,7 @@ export class InscriEntrepriseComponent implements OnInit {
               private toaster: ToastrService
               ) {
     this.id = activatedRouter.snapshot.paramMap.get('id');
+    this.siteKey='6LcbVIodAAAAAG2FECtHPeigiXOG_ghInhtBCs5c';
   }
 
   ngOnInit(): void {
@@ -47,20 +50,39 @@ export class InscriEntrepriseComponent implements OnInit {
     this.trouve=true;
   }
 
-  ajoutEtreprise(entreprise: Entreprise) {
-    this.service.enregistrerEntreprise(entreprise).subscribe(
-      data=>{
-        console.log("entreprise ajouter avec succés");
-        // this.toaster.success("Message envoyé avec succé!");
-        this.toaster.info("Message envoyé avec succé!");
-        this.trouve=true;
-        console.log(this.trouve);
-        this.router.navigate(['inscrientreprise',this.trouve]);
-      },
+  handleExpire(){
 
-      err=>{
-        console.log("Probleme de saisir! essayez une autre fois.");
-        // this.toaster.error("Probleme de saisir! essayez une autre fois.");
-      });
   }
+  handleReset(){
+
+  }
+  handleSuccess(data: any){
+    console.log(data);
+    this.captcha=true;
+  }
+
+  ajoutEtreprise(entreprise: Entreprise) {
+    if(this.captcha==true) {
+      this.service.enregistrerEntreprise(entreprise).subscribe(
+        data => {
+          console.log("entreprise ajouter avec succés");
+          // this.toaster.success("Message envoyé avec succé!");
+          this.toaster.info("Message envoyé avec succé!");
+          this.trouve = true;
+          console.log(this.trouve);
+          this.router.navigate(['inscrientreprise', this.trouve]);
+        },
+
+        err => {
+          console.log("Probleme de saisir! essayez une autre fois.");
+          // this.toaster.error("Probleme de saisir! essayez une autre fois.");
+        });
+    }
+    else{
+      this.messageerreur=1;
+      console.log("Probleme captcha.");
+    }
+  }
+
+
 }
