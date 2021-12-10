@@ -258,39 +258,39 @@
                 </textarea>
                 </div>
 
+                <!--
+                                <div>
+                                  <h6 *ngIf="messageerreur==1">Veuillez cocher la case ci-dessous pour continuer</h6>
+                                  <ngx-recaptcha2
+                                    #captchaElem
+                                    [siteKey]="siteKey"
+                                    (reset)="handleReset()"
+                                    (expire)="handleExpire()"
+                                    (success)="handleSuccess($event)"
+                                    [useGlobalDomain]="false"
+                                    formControlName="recaptcha"
+                                  >
+                                  </ngx-recaptcha2>
+                                </div>
+                -->
 
-                <div>
-                  <h6 *ngIf="messageerreur==1">Veuillez cocher la case ci-dessous pour continuer</h6>
-                  <ngx-recaptcha2
-                    #captchaElem
-                    [siteKey]="siteKey"
-                    (reset)="handleReset()"
-                    (expire)="handleExpire()"
-                    (success)="handleSuccess($event)"
-                    [useGlobalDomain]="false"
-                    formControlName="recaptcha"
-                  >
-                  </ngx-recaptcha2>
-                </div>
+                                <input
+                                  (click)=" ajoutEtreprise(entrepriseForm.value)"
+                                  [disabled]="entrepriseForm.invalid"
+                                  name="submit"
+                                  type="submit"
+                                  value="Envoyer"
+                                >
+                              </div>
+                            </fieldset>
 
-
-                <input
-                  (click)=" ajoutEtreprise(entrepriseForm.value)"
-                  [disabled]="entrepriseForm.invalid"
-                  name="submit"
-                  type="submit"
-                  value="Envoyer"
-                >
-              </div>
-            </fieldset>
-
-          </form>
+                          </form>
 
 
 
-        </div>
-      </div>
-      <!-- Column -->
+                        </div>
+                      </div>
+                      <!-- Column -->
     </div>
 
 

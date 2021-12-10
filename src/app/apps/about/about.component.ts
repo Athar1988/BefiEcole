@@ -74,7 +74,7 @@ export class AboutComponent {
 
   }
   ajoutContact(contact: Contact) {
-    if(this.captcha==true){
+    /*if(this.captcha==true){*/
       this.messageerreur=0;
       console.log(contact);
       this.service.enregistrerContact(contact).subscribe(
@@ -89,14 +89,11 @@ export class AboutComponent {
           console.log("Probleme de saisir! essayez une autre fois.");
           // this.toaster.error("Probleme de saisir! essayez une autre fois.");
         });
-    }
-    else{
-      this.messageerreur=1;
-      console.log("Probleme captcha.");
-    }
-
-
-
+    /*  }
+      else{
+        this.messageerreur=1;
+        console.log("Probleme captcha.");
+      }*/
   }
 
 //AIzaSyBi2q2VvTL9wJ2F9pp6ejqTO81Nh_G8oy8

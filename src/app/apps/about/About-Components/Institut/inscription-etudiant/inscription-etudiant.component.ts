@@ -73,7 +73,7 @@ export class InscriptionEtudiantComponent implements OnInit {
 
 
   ajoutEtudiant(etudiant: Etudiant) {
-    if(this.captcha==true) {
+   /* if(this.captcha==true) {*/
       this.messageerreur=0;
       this.service.enregistrerEtudiant(etudiant).subscribe(
         data => {
@@ -88,11 +88,11 @@ export class InscriptionEtudiantComponent implements OnInit {
           console.log("Probleme de saisir! essayez une autre fois.");
           // this.toaster.error("Probleme de saisir! essayez une autre fois.");
         });
-    }
+   /* }
     else{
       this.messageerreur=1;
       console.log("Probleme captcha.");
-    }
+    }*/
   }
 
 

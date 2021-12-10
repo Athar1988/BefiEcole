@@ -112,7 +112,7 @@
                   minlength="2"
                   type="text"
                   class="form-control"
-                  placeholder="+216 000 000"
+                  placeholder="00 000 000"
                   required=""
                   aria-required="true">
               </div>
@@ -153,41 +153,41 @@
                 </textarea>
               </div>
 
+              <!--
+                            <div>
+                              <h6 *ngIf="messageerreur==1">Veuillez cocher la case ci-dessous pour continuer</h6>
+                              <ngx-recaptcha2
+                              #captchaElem
+                              [siteKey]="siteKey"
+                              (reset)="handleReset()"
+                              (expire)="handleExpire()"
+                              (success)="handleSuccess($event)"
+                              [useGlobalDomain]="false"
+                              formControlName="recaptcha"
+                            >
+                            </ngx-recaptcha2>
+                            </div>
+              -->
+                            <input
+                              (click)=" ajoutContact(contactForm.value)"
+                              [disabled]="contactForm.invalid"
+                              name="submit"
+                              type="submit"
+                              value="Envoyer"
+                            >
+                          </div>
+                        </fieldset>
 
-              <div>
-                <h6 *ngIf="messageerreur==1">Veuillez cocher la case ci-dessous pour continuer</h6>
-                <ngx-recaptcha2
-                #captchaElem
-                [siteKey]="siteKey"
-                (reset)="handleReset()"
-                (expire)="handleExpire()"
-                (success)="handleSuccess($event)"
-                [useGlobalDomain]="false"
-                formControlName="recaptcha"
-              >
-              </ngx-recaptcha2>
-              </div>
-
-              <input
-                (click)=" ajoutContact(contactForm.value)"
-                [disabled]="contactForm.invalid"
-                name="submit"
-                type="submit"
-                value="Envoyer"
-              >
-            </div>
-          </fieldset>
-
-        </form>
+                      </form>
 
 
 
-        <div style="text-align:center">
-          <h3>
-            Bienvenue sur IFT
-          </h3>
-        </div>
-        <!-- Déclaration du conteneur de la carte avec l'id "frugalmap" -->
+                      <div style="text-align:center">
+                        <h3>
+                          Bienvenue sur IFT
+                        </h3>
+                      </div>
+                      <!-- Déclaration du conteneur de la carte avec l'id "frugalmap" -->
         <div id="frugalmap">
 
         </div>

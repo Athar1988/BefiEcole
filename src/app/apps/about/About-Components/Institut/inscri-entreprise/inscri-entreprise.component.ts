@@ -62,7 +62,7 @@ export class InscriEntrepriseComponent implements OnInit {
   }
 
   ajoutEtreprise(entreprise: Entreprise) {
-    if(this.captcha==true) {
+   /* if(this.captcha==true) {*/
       this.service.enregistrerEntreprise(entreprise).subscribe(
         data => {
           console.log("entreprise ajouter avec succés");
@@ -77,11 +77,11 @@ export class InscriEntrepriseComponent implements OnInit {
           console.log("Probleme de saisir! essayez une autre fois.");
           // this.toaster.error("Probleme de saisir! essayez une autre fois.");
         });
-    }
+   /* }
     else{
       this.messageerreur=1;
       console.log("Probleme captcha.");
-    }
+    }*/
   }
 
 
