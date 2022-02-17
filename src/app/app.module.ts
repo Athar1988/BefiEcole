@@ -10,11 +10,16 @@ import {NgxCaptchaModule} from 'ngx-captcha';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {ToastrModule} from 'ngx-toastr';
 import {AgmCoreModule} from '@agm/core';
+import { AjouteEvenementComponent } from './admin/ajoute-evenement/ajoute-evenement.component';
+import { AdminInscriptionComponent } from './admin/admin-inscription/admin-inscription.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
     AppComponent,
     CommerceComponent,
+    AjouteEvenementComponent,
+    AdminInscriptionComponent,
   ],
   imports: [
     BrowserModule,
@@ -22,6 +27,7 @@ import {AgmCoreModule} from '@agm/core';
     HttpClientModule,
     NgbModule,
     FormsModule,
+    FontAwesomeModule,
     ReactiveFormsModule,
     ToastrModule.forRoot(),
     BrowserAnimationsModule,

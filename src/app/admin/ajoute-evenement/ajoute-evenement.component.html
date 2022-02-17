@@ -1,0 +1,200 @@
+<div
+  class="banner-innerpage"
+  style="background-image: url(assets/images/landingpage/admin.jpg)"
+>
+  <div class="container">
+    <!-- Row  -->
+    <div class="row justify-content-center">
+      <!-- Column -->
+      <div class="col-lg-9 col-md-6 no-trans align-self-center text-center">
+      </div>
+      <!-- Column -->
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================== -->
+<!-- Feature 22  -->
+<!-- ============================================================== -->
+
+<div class="spacer feature22">
+  <div class="container">
+
+    <div class="row wrap-feature-22">
+      <!-- Column -->
+      <div class="col-lg-8 col-xl-8 no-trans">
+        <div class="text-box">
+          <h1 style="font-size: 14pt; color: #10b1d4;">Espace Administartion</h1>
+        </div>
+      </div>
+      <!-- Column -->
+
+      <!-- Column -->
+      <div class="col-lg-12 no-trans">
+        <div class="text-box">
+          <h1 style="font-size: 14pt; color: #10b1d4;">Administration</h1>
+
+
+
+          <div class="row">
+            <div class="col-md-offset-1 col-md-12">
+              <div class="panel">
+                <div class="panel-heading">
+                  <div class="row">
+                    <div class="col col-sm-3 col-xs-12">
+                      <h4 class="title">Data <span>List</span></h4>
+                    </div>
+                    <div class="col-sm-9 col-xs-12 text-right">
+                      <div class="btn_group">
+                       <!-- <input type="text" class="form-control" placeholder="Search">-->
+                        <button class="btn btn-default" title="Reload" (click)="action('entreprise')"><i class='fa fa-handshake-o'></i></button>
+                        <button class="btn btn-default" title="Pdf" (click)="action('etudiant')"><i class='fa fa-user-circle-o'></i></button>
+                        <button class="btn btn-default" title="Excel" (click)="action('evenement')"><i class='fa fa-calendar-plus-o'></i></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="panel-body table-responsive" *ngIf="affichage=='entreprise'">
+                  <table class="table">
+                    <thead>
+                    <tr  >
+                      <th>Ref</th>
+                      <th>Nom et prénom</th>
+                      <th>Fonction et activité</th>
+                      <th>Contact</th>
+                      <th>Email</th>
+                      <th>Message</th>
+                      <th>Action</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr *ngFor="let entreprise of listes._embedded.entreprises">
+                      <td>{{entreprise.id}}</td>
+                      <td>{{entreprise.nom}} {{entreprise.prenom}}</td>
+                      <td>{{entreprise.fonction}} {{entreprise.activite}}</td>
+                      <td>{{entreprise.telephone}} {{entreprise.modile}}</td>
+                      <td>{{entreprise.email}}</td>
+                      <td>{{entreprise.message}}</td>
+                      <td>
+                        <ul class="action-list">
+                          <li><a href="#" data-tip="edit"><i class="fa fa-edit"></i></a></li>
+                          <li><a href="#" data-tip="delete"><i class="fa fa-trash"></i></a></li>
+                        </ul>
+                      </td>
+                    </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+
+
+
+
+
+
+
+
+
+                <div class="panel-body table-responsive" *ngIf="affichage=='etudiant'">
+                  <table class="table">
+                    <thead>
+                    <tr  >
+                      <th>Ref</th>
+                      <th>Nom et prénom</th>
+                      <th>Contact</th>
+                      <th>Date de naissance</th>
+                      <th>Nationalité</th>
+
+                      <th>Adresse</th>
+                      <th>Ville</th>
+                      <th>Niveau étude</th>
+                      <th>Filiére</th>
+
+                      <th>Email</th>
+                      <th>Message</th>
+                      <th>Action</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr *ngFor="let etudiant of listes._embedded.etudiants">
+                      <td>{{etudiant.id}}</td>
+                      <td>{{etudiant.nom}} {{etudiant.prenom}}</td>
+                      <td>{{etudiant.telephone}}</td>
+                      <td>{{etudiant.datenaissance}}</td>
+                      <td>{{etudiant.nationalite}}</td>
+                      <td>{{etudiant.adresse}}</td>
+                      <td>{{etudiant.ville}}</td>
+                      <td>{{etudiant.niveauetude}}</td>
+                      <td>{{etudiant.filiere}}</td>
+                      <td>{{etudiant.email}}</td>
+                      <td>{{etudiant.message}}</td>
+                      <td>
+                        <ul class="action-list">
+                          <li><a href="#" data-tip="edit"><i class="fa fa-edit"></i></a></li>
+                          <li><a href="#" data-tip="delete"><i class="fa fa-trash"></i></a></li>
+                        </ul>
+                      </td>
+                    </tr>
+                    </tbody>
+                  </table>
+                </div>
+               <!-- <div class="panel-footer">
+                  <div class="row">
+                    <div class="col col-sm-6 col-xs-6">showing <b>5</b> out of <b>25</b> entries</div>
+                    <div class="col-sm-6 col-xs-6">
+                      <ul class="pagination hidden-xs pull-right">
+                        <li><a href="#"><</a></li>
+                        <li class="active"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">></a></li>
+                      </ul>
+                      <ul class="pagination visible-xs pull-right">
+                        <li><a href="#"><</a></li>
+                        <li><a href="#">></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>-->
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <!-- Column -->
+    </div>
+  </div>
+</div>
+<!-- ============================================================== -->
+<!-- End Feature 22  -->
+<!-- ============================================================== -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

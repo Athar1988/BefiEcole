@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BannerComponent } from './banner.component';
+import { AdminInscriptionComponent } from './admin-inscription.component';
 
-describe('BannerComponent', () => {
-  let component: BannerComponent;
-  let fixture: ComponentFixture<BannerComponent>;
+describe('AdminInscriptionComponent', () => {
+  let component: AdminInscriptionComponent;
+  let fixture: ComponentFixture<AdminInscriptionComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ BannerComponent ]
+      declarations: [ AdminInscriptionComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(BannerComponent);
+    fixture = TestBed.createComponent(AdminInscriptionComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

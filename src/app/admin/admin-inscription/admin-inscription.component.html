@@ -1,0 +1,119 @@
+<div
+  class="banner-innerpage"
+  style="background-image: url(assets/images/landingpage/admin.jpg)"
+>
+  <div class="container">
+    <!-- Row  -->
+    <div class="row justify-content-center">
+      <!-- Column -->
+      <div class="col-lg-9 col-md-6 no-trans align-self-center text-center">
+      </div>
+      <!-- Column -->
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================== -->
+<!-- Feature 22  -->
+<!-- ============================================================== -->
+
+<div class="spacer feature22" *ngIf="admin!='true'">
+  <div class="container">
+
+    <div class="row wrap-feature-22">
+      <!-- Column -->
+      <div class="col-lg-8 col-xl-8 no-trans">
+        <div class="text-box">
+          <h1 style="font-size: 14pt; color: #10b1d4;">Espace Administartion</h1>
+        </div>
+      </div>
+      <!-- Column -->
+
+      <!-- Column -->
+      <div class="col-lg-12 no-trans">
+        <div class="text-box">
+          <h1 style="font-size: 14pt; color: #10b1d4;">LOGIN</h1>
+
+
+          <form #adminForm="ngForm" id="commentForm" class="cmxform" method="post" action="submit-envoi.php" novalidate="novalidate">
+            <fieldset>
+              <div class="form-group">
+
+                <div>
+                  <label for="admin">Login</label>
+                  <input
+                    [(ngModel)]="admin"
+                    type="text"
+                    #adminInput="ngModel"
+                    required
+                    ngModel
+                    id="admin"
+                    name="admin"
+                    minlength="3"
+                    type="text"
+                    class="form-control"
+                    placeholder="Saisir votre login"
+                    required=""
+                    aria-required="true"
+                  >
+                  <div
+                    *ngIf="adminInput.invalid && adminInput.dirty"
+                    class="alert alert-danger"
+                  >
+                    Champs obligatoire et au moins 3 caractéres
+                  </div>
+                </div>
+
+
+
+                <div>
+                  <label for="motdepasse">Mot de passe</label>
+                  <input
+                  [(ngModel)]="motdepasse"
+                  type="password"
+                  #motdepasseInput="ngModel"
+                  required
+                  ngModel
+                  id="motdepasse"
+                  name="motdepasse"
+                  type="text"
+                  class="form-control"
+                  placeholder="Mot de passe"
+                  required=""
+                  aria-required="true">
+                  <div
+                    *ngIf="motdepasseInput.invalid && motdepasseInput.dirty"
+                    class="alert alert-danger"
+                  >
+                    Champs obligatoire et au moins 3 caractéres
+                  </div>
+                </div>
+
+                <input
+                  (click)=" Login(adminForm.value)"
+                  [disabled]="adminForm.invalid"
+                  name="submit"
+                  type="submit"
+                  value="Envoyer"
+                >
+              </div>
+            </fieldset>
+
+          </form>
+
+
+
+        </div>
+      </div>
+      <!-- Column -->
+    </div>
+
+
+  </div>
+</div>
+<!-- ============================================================== -->
+<!-- End Feature 22  -->
+<!-- ============================================================== -->
+
+
+

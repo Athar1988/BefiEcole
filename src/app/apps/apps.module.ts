@@ -11,9 +11,7 @@ import { ServiceblogService } from './blog/blog-service.service';
 import { RelayOnComponent } from './about/About-Components/relay-on/relay-on.component';
 import { TopContentComponent } from './about/About-Components/top-content/top-content.component';
 import { FullComponent } from './layout/full/full.component';
-import { BannerComponent } from './shared/banner/banner.component';
-import { BannerNavigationComponent } from './shared/banner-navigation/banner-navigation.component';
-import { FooterComponent } from './shared/footer/footer.component';
+import { FooterComponent } from './layout/footer/footer.component';
 import { QuinousComponent } from './about/About-Components/Institut/quinous/quinous.component';
 import { LavieComponent } from './about/About-Components/Institut/lavie/lavie.component';
 import { StageComponent } from './about/About-Components/Institut/stage/stage.component';
@@ -50,9 +48,6 @@ import { InscriptionEtudiantComponent } from './about/About-Components/Institut/
     RelayOnComponent,
     TopContentComponent,
     FullComponent,
-    BannerComponent,
-    // BannerContentComponent,
-    BannerNavigationComponent,
     FooterComponent,
     QuinousComponent,
     LavieComponent,

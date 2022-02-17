@@ -10,8 +10,8 @@ import {Etudiant} from '../Modele/Etudiant';
   providedIn: 'root'
 })
 export class ServiceService {
-  host='https://befi.herokuapp.com/';
-
+  //host='https://befi.herokuapp.com/';
+  host='http://localhost:8080/';
   constructor(private router: Router, private http: HttpClient) { }
 
 
@@ -27,4 +27,15 @@ export class ServiceService {
     return this.http.post<Etudiant>(this.host+"etudiants",etudiant);
   }
 
+  logout(): void {
+    localStorage.removeItem('admin');
+  }
+
+  recupererLogin() {
+    return this.http.get(this.host+'logins');
+  }
+
+  get(url:any){
+    return this.http.get(this.host+url);
+  }
 }

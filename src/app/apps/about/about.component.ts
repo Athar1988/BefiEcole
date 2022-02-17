@@ -53,8 +53,6 @@ export class AboutComponent {
       iconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/images/marker-icon.png'
     });
     L.marker([34.73324, 10.75057], {icon: myIcon}).bindPopup('Je suis IFT').addTo(myfrugalmap).openPopup();
-
-
     /* code de captcha*/
     this.aFormGroup = this.formBuilder.group({
       recaptcha: ['', Validators.required]
@@ -62,17 +60,7 @@ export class AboutComponent {
   }
 
 
-  handleSuccess(data: any){
-    console.log(data);
-    this.captcha=true;
-  }
 
-  handleExpire(){
-
-  }
-  handleReset(){
-
-  }
   ajoutContact(contact: Contact) {
     /*if(this.captcha==true){*/
       this.messageerreur=0;

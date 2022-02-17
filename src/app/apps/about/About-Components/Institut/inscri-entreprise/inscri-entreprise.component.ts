@@ -47,7 +47,7 @@ export class InscriEntrepriseComponent implements OnInit {
     });
     console.log(this.aFormGroup+" apres");
     this.siteKey = "6LdMol4dAAAAAJn1IE3V1Dv4cjoudpjgzPB_Gu0g";
-    this.trouve=true;
+    //this.trouve=true;
   }
 
   handleExpire(){
@@ -68,9 +68,9 @@ export class InscriEntrepriseComponent implements OnInit {
           console.log("entreprise ajouter avec succés");
           // this.toaster.success("Message envoyé avec succé!");
           this.toaster.info("Message envoyé avec succé!");
-          this.trouve = true;
-          console.log(this.trouve);
-          this.router.navigate(['inscrientreprise', this.trouve]);
+          //this.trouve = true;
+         // console.log(this.trouve);
+          this.router.navigate(['']);
         },
 
         err => {

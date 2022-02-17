@@ -32,6 +32,8 @@ import {BtpmultimediaComponent} from './blog/formationbtp/btpmultimedia/btpmulti
 import {BtpdouanieresComponent} from './blog/formationbtp/btpdouanieres/btpdouanieres.component';
 import {BtpPatisserieComponent} from './blog/formationbtp/btp-patisserie/btp-patisserie.component';
 import {InscriptionEtudiantComponent} from './about/About-Components/Institut/inscription-etudiant/inscription-etudiant.component';
+import {AjouteEvenementComponent} from '../admin/ajoute-evenement/ajoute-evenement.component';
+import {AdminInscriptionComponent} from '../admin/admin-inscription/admin-inscription.component';
 
 
 const routes: Routes = [
@@ -51,6 +53,9 @@ const routes: Routes = [
       { path: 'finance/:id', component: FinanceComponent },
 
 
+
+      { path: 'administration/:id', component: AjouteEvenementComponent },
+      { path: 'admin', component: AdminInscriptionComponent },
       { path: 'ventebtp', component: BtpventeComponent },
       { path: 'gestionbtp', component: BtpgestionComponent },
       { path: 'comptablebtp', component: BtpComptableComponent },
