@@ -1,0 +1,68 @@
+
+<nav class="navbar navbar-expand-lg navbar-light  position " style="background-color: rgba(40,112,168,0.85);">
+  <div class="container px-4 px-lg-5">
+    <a class="navbar-brand" routerLink=""><i class="fa fa-graduation-cap" aria-hidden="true"  style='font-size:30px;color:rgba(0,0,0,0.93)'></i>IFT</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+        <li class="nav-item"><a class="nav-link active" aria-current="page" routerLink=""  [routerLinkActive]="['active']">Accueil</a></li>
+
+
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pourquoi IFT ?  </a>
+          <ul class="dropdown-menu fade-up" style="background-color: rgba(40,112,168,0.85);">
+            <li><a class="dropdown-item" (click)="quinous('quinous/')">Qui sommes nous?</a></li>
+            <li><a class="dropdown-item" (click)="quinous('engage')">IFT S’engage</a></li>
+            <li><a class="dropdown-item" (click)="quinous('solutions')">Les solutions IFT</a></li>
+            <li><a class="dropdown-item" (click)="quinous('pedagogie')">Pédagogie</a></li>
+            <li><a class="dropdown-item" (click)="quinous('partenaires')">Nos Partenaires</a></li>
+          </ul>
+        </li>
+
+
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle"  data-bs-toggle="dropdown">Formations BTP  </a>
+          <ul class="dropdown-menu fade-up" style="background-color: rgba(40,112,168,0.85);">
+            <li><a class="dropdown-item" (click)="formation('ventebtp')">Le technicien en BTP vente des produits</a></li>
+            <li><a class="dropdown-item" (click)="formation('gestionbtp')">Informatique de gestion</a></li>
+            <li><a class="dropdown-item" (click)="formation('comptablebtp')">Comptable d’entreprise</a></li>
+            <li><a class="dropdown-item" (click)="formation('commercebtp')">Commerce de Distribution</a></li>
+            <li><a class="dropdown-item" (click)="formation('infographiebtp')">Infographie et Publication Assisté par Ordinateur</a></li>
+            <li><a class="dropdown-item" (click)="formation('multimediabtp')">Formation multimedia</a></li>
+            <li><a class="dropdown-item" (click)="formation('douanieresbtp')">Formalités douanières</a></li>
+            <li><a class="dropdown-item" (click)="formation('patisseriebtp')">Formation Patisserie BTP Tunisie (IFT-ART)</a></li>
+          </ul>
+        </li>
+
+
+        <li class="nav-item" *ngIf="admin!='true'" ><a class="nav-link" routerLink="/inscrientreprise">Espace Entreprises</a></li>
+        <li class="nav-item" *ngIf="admin!='true'"><a class="nav-link" routerLink="/about">Contact</a></li>
+
+
+        <li class="nav-item" [routerLinkActive]="['active']" class="p-2" *ngIf="admin!='true'" >
+          <a routerLink="/inscriptionEtudiant" class="btn btn-danger-gradiant font-14">
+            Inscription
+          </a>
+        </li>
+
+
+        <li class="nav-item" [routerLinkActive]="['active']" *ngIf="admin=='true'" class="p-2">
+          <a class="btn btn-danger-gradiant font-14" (click)="Administration()">
+            Administration
+          </a>
+        </li>
+
+        <li class="nav-item" [routerLinkActive]="['active']" *ngIf="admin=='true'" >
+          <a class="btn btn-danger-gradiant font-14" (click)="logout()">
+            Logout
+          </a>
+        </li>
+
+
+      </ul>
+
+    </div>
+  </div>
+</nav>

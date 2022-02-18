@@ -41,10 +41,12 @@
               <div class="panel">
                 <div class="panel-heading">
                   <div class="row">
-                    <div class="col col-sm-3 col-xs-12">
-                      <h4 class="title">Data <span>List</span></h4>
+                    <div class="col col-sm-6 col-xs-12">
+                      <h4 class="title" *ngIf="affichage=='entreprise'">List <span>des entreprises</span></h4>
+                      <h4 class="title" *ngIf="affichage=='etudiant'">List <span>des étudiants</span></h4>
+                      <h4 class="title" *ngIf="affichage=='evenement'" >Ajouter <span>photos d'Événements</span></h4>
                     </div>
-                    <div class="col-sm-9 col-xs-12 text-right">
+                    <div class="col-sm-6 col-xs-12 text-right">
                       <div class="btn_group">
                        <!-- <input type="text" class="form-control" placeholder="Search">-->
                         <button class="btn btn-default" title="Reload" (click)="action('entreprise')"><i class='fa fa-handshake-o'></i></button>
@@ -79,8 +81,7 @@
                       <td>{{entreprise.message}}</td>
                       <td>
                         <ul class="action-list">
-                          <li><a href="#" data-tip="edit"><i class="fa fa-edit"></i></a></li>
-                          <li><a href="#" data-tip="delete"><i class="fa fa-trash"></i></a></li>
+                          <li><a (click)="supprimerEntreprise(entreprise.id)" data-tip="delete"><i class="fa fa-trash"></i></a></li>
                         </ul>
                       </td>
                     </tr>
@@ -106,12 +107,10 @@
                       <th>Contact</th>
                       <th>Date de naissance</th>
                       <th>Nationalité</th>
-
                       <th>Adresse</th>
                       <th>Ville</th>
                       <th>Niveau étude</th>
                       <th>Filiére</th>
-
                       <th>Email</th>
                       <th>Message</th>
                       <th>Action</th>
@@ -132,8 +131,7 @@
                       <td>{{etudiant.message}}</td>
                       <td>
                         <ul class="action-list">
-                          <li><a href="#" data-tip="edit"><i class="fa fa-edit"></i></a></li>
-                          <li><a href="#" data-tip="delete"><i class="fa fa-trash"></i></a></li>
+                          <li><a (click)="supprimerEtudiant(etudiant.id)" data-tip="delete"><i class="fa fa-trash"></i></a></li>
                         </ul>
                       </td>
                     </tr>
@@ -165,6 +163,50 @@
           </div>
 
 
+
+
+
+
+
+
+
+          <div class="panel-body table-responsive" *ngIf="affichage=='evenement'">
+            <table class="table">
+              <thead>
+              <tr>
+                <th>selectionner une photo</th>
+                <th>Enregistrer la photo</th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                <td><input type="file" (change)="onFileChanged($event)"></td>
+                <td><input type="button" (click)="onUpload()" value="Enregistrer"></td>
+              </tr>
+              </tbody>
+            </table>
+
+            <!-- trois marques -->
+            <div class="container">
+              <div class="row">
+
+                <div class="col-md-4 col-sm-6 col-xl-3 p-3"  *ngFor="let evenement of listeImage._embedded.evenements">
+                  <div class="box">
+                    <img src="data:image/jpeg;base64,{{evenement.picByte}}" >
+                    <div class="box-content">
+                      <ul class="icon">
+                        <li><a (click)="supprimerPhoto(evenement.id)"><i class="fa fa-trash"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+          </div>
 
 
 

@@ -23,12 +23,5 @@ export class ServiceblogService {
     return of(blogs);
   }
 
-  public addPost(bl: any) {
-    this.Blogs.splice(0, 0, bl);
-  }
-
-  public deletePost(id: number) {
-    this.Blogs = this.Blogs.filter(b => b.id !== id);
-  }
 
 }

@@ -38,4 +38,25 @@ export class ServiceService {
   get(url:any){
     return this.http.get(this.host+url);
   }
+
+  getImage(url:any){
+    return this.http.get(this.host+url);
+  }
+
+  supprimerPhoto(url: string, id: any) {
+    return this.http.delete(this.host+url+"/"+id);
+  }
+
+  supprimerEntreprise(url: string, id: any) {
+    return this.http.delete(this.host+url+"/"+id);
+  }
+
+  supprimerEtudiant(url: string, id: any) {
+    return this.http.delete(this.host+url+"/"+id);
+  }
+
+  AdminAuthenticated(): boolean {
+    return !!localStorage.getItem('admin');
+  }
+
 }

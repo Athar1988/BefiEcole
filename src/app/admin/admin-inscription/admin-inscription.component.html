@@ -89,13 +89,27 @@
                   </div>
                 </div>
 
-                <input
-                  (click)=" Login(adminForm.value)"
-                  [disabled]="adminForm.invalid"
-                  name="submit"
-                  type="submit"
-                  value="Envoyer"
+                <div class="row">
+                  <div class="col-sm-3" *ngIf="adminForm.valid">
+                    <a  (click)=" Login(adminForm.value)" class="btn btn-lg" data-hover="Envoyer">
+                      <span>Envoyer</span>
+                    </a>
+                  </div>
+
+
+                  <div class="col-sm-3" *ngIf="adminForm.invalid">
+                    <a  class="btn btn-lg" data-hover="Remplir">
+                      <span>Remplir</span>
+                    </a>
+                  </div>
+                </div>
+
+                <div
+                  *ngIf="trouve==false"
+                  class="alert alert-danger"
                 >
+                  Login n'existe pas ou saisie incorrecte
+                </div>
               </div>
             </fieldset>
 

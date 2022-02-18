@@ -1,0 +1,222 @@
+
+
+
+<!--------- image accueil --->
+<div
+  class="static-slider-head"
+  style=" background-image: url(assets/images/landingpage/benner1.jpg) "
+>
+  <div class="container">
+
+    <div class="row justify-content-center">
+      <!-- Column -->
+      <div class="col-lg-9 col-md-6 align-self-center text-center no-trans">
+        <h2 class="title">Inscriptions ouvertes 2021-2022</h2>
+        <h5 class="subtitle op-5">
+          Inscrivez vous dès aujourd'hui !
+        </h5>
+        <a
+          routerLink="/inscriptionEtudiant"
+          class="btn btn-md m-t-30 btn-success-gradiant font-14"
+          target="blank"
+        >Accédez</a
+        >
+      </div>
+      <!-- Column -->
+    </div>
+  </div>
+</div>
+
+
+<!--------- qui nous sommes accueil --->
+<div class="spacer feature22">
+  <div class="container">
+    <div class="row wrap-feature-22">
+      <!-- Column -->
+      <div class="col-lg-6" data-aos="flip-up" data-aos-duration="1200">
+        <img [src]="imagePath" class="rounded img-responsive" alt="wrapkit" />
+      </div>
+      <!-- Column -->
+      <div class="col-lg-6 no-trans">
+        <div class="text-box">
+          <small class="text-info font-medium">Qui sommes nous ?</small>
+          <h3 class="font-light">
+            Présentation de l’institut de formation professionnelle
+            <span class="text-info">IFT</span>
+            en Tunisie
+          </h3>
+          <p class="text-justify">
+            L’institut de formation professionnelle en Tunisie "IFT" a été créé en 2005.
+            Suite à l'obtention de l'homologation auprès du Ministère de la Formation professionnelle et de l’Emploi,
+            l'institut a annoncé sa fondation dans le but d'offrir une solution de formation pratique pour
+            les étudiants qui désirent faire carrière dans la comptabilité, l'informatique de gestion ou le commerce International.
+            En adoptant une approche unique de l'enseignement, avec un accent sur l'apprenant adulte,
+            l'école a rapidement élargi ses programmes pour répondre au mieux aux besoins des étudiants en Tunisie.
+          </p>
+          <a
+            class="btn btn-info-gradiant btn-md btn-arrow m-t-20"
+            data-toggle="collapse"
+            routerLink="/quinous"
+          >
+        <span
+        >lire plus
+          <i class="ti-arrow-right"></i>
+        </span>
+          </a>
+
+        </div>
+      </div>
+      <!-- Column -->
+    </div>
+
+  </div>
+</div>
+
+
+<!--------- bloc 3 info accueil --->
+<div class="bg-light spacer feature1">
+  <div class="container">
+    <!-- Row  -->
+    <div class="row justify-content-center">
+      <div class="col-md-7 text-center no-trans">
+        <h2 class="title">L'IFT au quotidien</h2>
+        <h6 class="subtitle">
+          Certes, la réussite d’un stagiaire dans sa vie professionnelle est le résultat de beaucoup d’efforts et de sacrifices….
+          Mais, une réussite durable et pérenne représente le fruit de la passion qu’on éprouve pour son métier.
+          Faites, donc de votre passion un métier.
+        </h6>
+      </div>
+    </div>
+    <div class="row m-t-40">
+      <!-- Column -->
+      <div class="col-md-4 wrap-feature1-box" *ngFor='let relay of relayOn'>
+        <div class="card card-shadow" data-aos="fade-right" data-aos-duration="1200">
+          <div class="card-body p-40 text-center">
+            <div class="icon-space display-5">
+              <i [class]="relay.icon"></i>
+            </div>
+            <h5 class="font-medium">{{relay.field}}</h5>
+            <p class="m-t-20">
+              {{relay.fieldText}}
+            </p>
+            <a
+              class="btn btn-info-gradiant btn-md btn-arrow m-t-20"
+              data-toggle="collapse"
+              routerLink="/{{relay.lien}}"
+            >
+        <span
+        >lire plus
+          <i class="ti-arrow-right"></i>
+        </span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+<!-- ============================================================== -->
+<!-- End Feature 1  -->
+<!-- ============================================================== -->
+
+<!-- ============================================================== -->
+<!-- Call to action -->
+<!-- ============================================================== -->
+<div class="spacer">
+  <div class="container">
+    <div class="row justify-content-center m-b-30">
+      <div class="col-md-7 text-center no-trans">
+        <h2 class="title">
+          Espace Entreprise
+        </h2>
+        <h6 class="subtitle">
+
+          <p>Depuis sa fondation en 2005, comme un institut de formation professionnelle,
+            l'IFT a accompagné un bon nombre de sociétés dans leur réussite à travers
+            un système de formation interentreprises basé sur le développement durable des
+            performances et l'amélioration de la rentabilité.</p>
+
+          <p>
+            L'IFT propose des prestations au service de la performance individuelle et
+            collective des entreprises qui désirent développer les compétences et les talents
+            de leurs employés sur le plan individuel et collectif pour une meilleure efficacité.
+          </p>
+
+        </h6>
+        <a
+          class="btn btn-info-gradiant btn-md btn-arrow m-t-20"
+          data-toggle="collapse"
+          href="/inscrientreprise"
+        ><span>Lire plus <i class="ti-arrow-right"></i></span
+        ></a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ============================================================== -->
+<!-- End Call to action -->
+<!-- ============================================================== -->
+
+
+
+<div class="bg-light spacer feature1">
+  <div class="container">
+    <!-- Row  -->
+
+    <!-- Row  -->
+    <div class="bg-light spacer feature1">
+      <div class="container">
+        <div class="row justify-content-center">
+          <!-- Column -->
+          <div class="col-md-8 no-trans text-center ">
+            <h2 class="title">Formations</h2>
+            <h6 class="subtitle">
+
+              <p>Nos cours de formation professionnelle sont conçus pour les personnes qui
+                souhaitent soit commencer une nouvelle carrière et devenir gestionnaires,
+                comptables ou informaticiens, soit ajouter des compétences dans une structure de carrière déjà existante.</p>
+
+
+              <p>Inscrivez-vous dans notre programme de formation,
+                et profitez d'une formation professionnelle (BTS ou BTP)
+                sur mesure assurée par des formateurs qualifiés.</p>
+            </h6>
+          </div>
+          <!-- Column -->
+        </div>
+        <div class="row m-t-40 justify-content-center">
+          <!-- Column -->
+          <div
+            class="col-md-8 no-trans border-bottom mb-4 "
+            *ngFor="let bl of service.Blogs"
+          >
+            <div class="card bg-light" data-aos="flip-left" data-aos-duration="1200">
+              <div class="row">
+                <div class="col-md-2 no-trans bg-light">
+                  <span class="text-dark font-medium">{{ bl.Date }}</span>
+                </div>
+                <div class="col-md-7 no-trans">
+                  <h5 class="font-medium cursor-pointer" (click)="viewDetail(bl.Lien,bl.id)">
+                    {{ bl.titre.substring(0, 50) }}..
+                  </h5>
+                  <p class="m-t-20">
+                    {{ bl.petitTitre }}
+                  </p>
+                </div>
+                <div class="col-md-3 no-trans">
+                  <a
+                    class="linking font-medium text-themecolor m-t-10 cursor-pointer"
+                  >
+                    <span (click)="viewDetail(bl.Lien,bl.id)">Lire plus</span>
+                    <i class="ti-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div></div>
