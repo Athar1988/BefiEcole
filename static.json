@@ -12,7 +12,7 @@
     }
   },
   "https_only": true,
-  "root": "dist/BefiEcole/",
+  "root": "dist/blogApp/",
   "routes": {
     "/**": "index.html"
   }
