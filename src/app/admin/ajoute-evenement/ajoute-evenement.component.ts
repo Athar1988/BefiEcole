@@ -14,8 +14,8 @@ export class AjouteEvenementComponent implements OnInit {
   entreprises:any;
   selectedFile='';
   listeImage:any;
-  //host='https://befi.herokuapp.com/';
-  host='http://localhost:8080/';
+  host='https://befi.herokuapp.com/';
+  //host='http://localhost:8080/';
   constructor(private router:Router,
               private route:ActivatedRoute,
               private service:ServiceService,
@@ -84,12 +84,14 @@ export class AjouteEvenementComponent implements OnInit {
       .subscribe((response) => {
           if (response.status === 200) {
             //this.message = 'Image uploaded successfully';
+            this.router.navigateByUrl('administration/evenement');
           } else {
             // this.message = 'Image not uploaded successfully';
           }
         }
       );
-    location.reload();
+   // location.reload();
+
   }
 
 

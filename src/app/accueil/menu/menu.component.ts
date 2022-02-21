@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {ServiceService} from '../../apps/services/service.service';
 import {Router} from '@angular/router';
+import {Blog} from '../../apps/blog/blog-type';
 
 @Component({
   selector: 'app-menu',
@@ -11,6 +12,9 @@ export class MenuComponent implements OnInit {
 
   admin:any;
   constructor(private router: Router, private service:ServiceService) { }
+
+
+  blogs: Blog[] =this.service.blogs;
 
   ngOnInit(): void {
     this.admin=localStorage.getItem('admin');
@@ -33,4 +37,8 @@ export class MenuComponent implements OnInit {
     this.router.navigate(['administration/entreprise']);
   }
 
+
+  viewDetail(lien: string, id: number) {
+    this.service.viewDetail(lien, id);
+  }
 }

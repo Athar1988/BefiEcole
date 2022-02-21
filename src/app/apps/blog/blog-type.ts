@@ -4,4 +4,5 @@ export class Blog {
   titre: string = '';
   description: string = '';
   Lien: string = '';
+  icon: string = '';
 }

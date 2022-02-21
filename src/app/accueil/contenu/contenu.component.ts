@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import {HttpClient} from '@angular/common/http';
-import {ServiceblogService} from '../../apps/blog/blog-service.service';
 import {Router} from '@angular/router';
+import {Blog} from '../../apps/blog/blog-type';
+import {ServiceService} from '../../apps/services/service.service';
 
 @Component({
   selector: 'app-contenu',
@@ -11,7 +12,7 @@ import {Router} from '@angular/router';
 export class ContenuComponent implements OnInit {
 
 
-  imagePath='../assets/images/blog/ecole.jpg';
+  imagePath='../assets/images/blog/ecole1.jpg';
   relayOn = [
     {
       icon: 'sl-icon-globe text-info-gradiant',
@@ -32,23 +33,27 @@ export class ContenuComponent implements OnInit {
       lien: 'galerie',
     }
   ];
+
+
+
   constructor(
-    public service: ServiceblogService,
+    public serviceService: ServiceService,
     public router: Router,
     public http: HttpClient
   ) {
-    this.service.showEdit = false;
+    this.serviceService.showEdit = false;
   }
 
-  ngOnInit(): void {
-    if (this.service.Blogs.length === 0)
-      this.service.getBlog().subscribe((d: any) => (this.service.Blogs = d));
+
+  blogs: Blog[] =this.serviceService.blogs;
+
+    ngOnInit(): void {
+    if (this.serviceService.Blogs.length === 0)
+      this.serviceService.getBlog().subscribe((d: any) => (this.serviceService.Blogs = d));
   }
 
 
   viewDetail(lien: string, id: number) {
-    this.service.detailId = id;
-    if (this.service.loginStatusService) this.service.showEdit = true;
-    this.router.navigate([lien, id]);
+    this.serviceService.viewDetail(lien, id);
   }
 }

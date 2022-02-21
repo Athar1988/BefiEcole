@@ -1,0 +1,66 @@
+.serviceBox{
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  padding: 25px 25px 55px;
+  position: relative;
+  z-index: 1;
+}
+.serviceBox:before,
+.serviceBox:after{
+  content: '';
+  background: linear-gradient(#a64cef, #882FD5);
+  border-radius: 20px;
+  position: absolute;
+  left: 10px;
+  right: 0;
+  top: 15px;
+  bottom: 0;
+  z-index: -1;
+}
+.serviceBox:after{
+  background: #fff;
+  left: 0;
+  right: 10px;
+  top: 0;
+  bottom: 15px;
+  clip-path: polygon(30% 0, 100% 0, 100% 85%, 75% 100%, 0 100%, 0 20%);
+}
+.serviceBox .service-icon{
+  color: #882FD5;
+  font-size: 35px;
+  text-shadow: 4px 4px rgba(0,0,0,0.1);
+  margin: 0 0 10px;
+}
+
+.serviceBox .title span{ font-weight: 700; }
+.serviceBox .description{
+  color: #888;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  margin: 0;
+}
+.serviceBox .read-more{
+  color: #fff;
+  font-size: 22px;
+  line-height: 22px;
+  position: absolute;
+  right: 15px;
+  bottom: 9px;
+  transition: all 0.3s ease 0s;
+}
+.serviceBox .read-more:hover{
+  color: rgba(255,255,255,0.7);
+  text-shadow: 3px 3px rgba(255,255,255,0.1);
+}
+.serviceBox.darkgreen:before{ background: linear-gradient(#b4bda9, #363636); }
+.serviceBox.darkgreen .service-icon,
+.serviceBox.darkgreen .title{
+  color: #b0b0b0;
+}
+.serviceBox.blue:before{ background: linear-gradient(#b4bda9, #363636); }
+.serviceBox.blue .service-icon,
+.serviceBox.blue .title{
+  color: #000000;
+}

@@ -3,6 +3,12 @@ h6{
 }
 
 
+label{
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #5b5b5b;
+}
 
 
 .btn{

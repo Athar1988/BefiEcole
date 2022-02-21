@@ -2,6 +2,15 @@ h6{
   color: red;
 }
 
+
+label{
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #5b5b5b;
+}
+
+
 .btn{
   color: transparent;
   font-family: 'Chakra Petch', sans-serif;

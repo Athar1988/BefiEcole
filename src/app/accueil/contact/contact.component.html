@@ -7,10 +7,9 @@
     <div class="row justify-content-center">
       <!-- Column -->
       <div class="col-lg-9 col-md-6 align-self-center text-center">
-        <h1 class="title">Formations BTP</h1>
+        <h1 class="title">Contactez-Nous</h1>
         <h5 class="subtitle op-5">
-          Modules techniques de la formation en pâtisserie
-        </h5>
+          Si vous avez des questions , recommandations , ou besoin d'info supplémentaire, n'hézitez pas à nous contacter.        </h5>
       </div>
       <!-- Column -->
     </div>
@@ -18,7 +17,7 @@
 </div>
 
 <!-- Row  -->
-<div class="container">
+<div class="container fw-lighter">
   <div class="row justify-content-center">
     <div class="col-md-8 no-trans">
       <div class="mini-spacer">
@@ -167,7 +166,7 @@
                             >
                             </ngx-recaptcha2>
                             </div>
-              -->
+
               <input
                 (click)=" ajoutContact(contactForm.value)"
                 [disabled]="contactForm.invalid"
@@ -175,6 +174,25 @@
                 type="submit"
                 value="Envoyer"
               >
+-->
+
+
+              <div class="form-group p-4" >
+                <div class="row">
+                  <div class="col-sm-3" *ngIf="contactForm.valid">
+                    <a  (click)=" ajoutContact(contactForm.value)" class="btn btn-lg" data-hover="Envoyer">
+                      <span>Envoyer</span>
+                    </a>
+                  </div>
+
+
+                  <div class="col-sm-3" *ngIf="contactForm.invalid">
+                    <a  class="btn btn-lg" data-hover="Remplir">
+                      <span>Remplir</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
           </fieldset>
 
@@ -189,23 +207,6 @@
         </div>
         <!-- Déclaration du conteneur de la carte avec l'id "frugalmap" -->
         <div id="frugalmap">
-
-        </div>
-
-
-
-
-
-        <div class="container-fluid py-3">
-
-          <div class="m-t-30">
-            <button type="button" class="btn bg-facebook btn-rounded mr-3">
-              <i class="fa fa-facebook"></i> Facebook
-            </button>
-            <button type="button" class="btn bg-twitter btn-rounded">
-              <i class="fa fa-twitter"></i> Twitter
-            </button>
-          </div>
 
         </div>
       </div>

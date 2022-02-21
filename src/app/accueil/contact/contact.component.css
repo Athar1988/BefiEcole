@@ -8,6 +8,15 @@ body {
 }
 
 
+
+label{
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #5b5b5b;
+}
+
+
 #frugalmap {
   height: 600px;
   width: 100%
@@ -80,4 +89,56 @@ button:focus {
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
   outline-width: 0
+}
+
+
+
+
+
+.btn{
+  color: transparent;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 22px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 7px 15px;
+  border: none;
+  border-radius: 0;
+  perspective: 500px;
+  transform-style: preserve-3d;
+  position: relative;
+  z-index: 1;
+  transition: all 0.5s;
+}
+.btn:hover{ color: transparent; }
+.btn:before,
+.btn:after{
+  content: attr(data-hover);
+  color: #2980b9;
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  padding: 5px 15px;
+  border: 2px solid #2980b9;
+  transform: translateZ(0px);
+  transform-origin: 50% 50% -25px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.2s ease;
+}
+.btn:after{
+  color: #fff;
+  background-color: #2980b9;
+  transform: rotateX(90deg);
+  transform-origin: 50% 50% -25px;
+  visibility: hidden;
+  transition: all 0.2s ease 0.05s;
+}
+.btn:hover:before{ transform: translateZ(-200px); }
+.btn:hover:after{
+  visibility: visible;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  transform: rotateX(0deg);
 }

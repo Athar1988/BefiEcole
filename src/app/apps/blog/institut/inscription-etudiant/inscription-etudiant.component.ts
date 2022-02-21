@@ -44,31 +44,12 @@ export class InscriptionEtudiantComponent implements OnInit {
 
 
   ngOnInit(): void {
-    console.log(this.id+" id");
-    console.log(this.aFormGroup+" avant");
     this.aFormGroup = this.formBuilder.group({
       recaptcha: ['', Validators.required]
     });
     console.log(this.aFormGroup+" apres");
     this.siteKey = "6LdMol4dAAAAAJn1IE3V1Dv4cjoudpjgzPB_Gu0g";
     this.trouve=true;
-  }
-
-  /*ajoutEtudiant(value: any) {
-    console.log(value);
-   // this.toaster.success(`L'inscription de {value.nom} {value.prenom} a été ajuoté avec succès`);
-    this.router.navigate(['']);
-  }*/
-  handleSuccess(data: any){
-    console.log(data);
-    this.captcha=true;
-  }
-
-  handleExpire(){
-
-  }
-  handleReset(){
-
   }
 
 
@@ -80,7 +61,6 @@ export class InscriptionEtudiantComponent implements OnInit {
           console.log("etudiant ajouter avec succés");
           this.toaster.info("Inscription envoyé avec succé!");
           this.trouve = true;
-          console.log(this.trouve);
           this.router.navigate(['inscriptionEtudiant', this.trouve]);
         },
 

@@ -7,3 +7,11 @@ li {
 a {
   cursor: pointer;
 }
+
+p {
+  margin: 0;
+  text-indent: 2rem;
+  text-align: justify;
+}
+
+

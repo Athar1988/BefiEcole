@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {Blog} from '../../blog-type';
-import {ServiceblogService} from '../../blog-service.service';
 import {ActivatedRoute, Router} from '@angular/router';
+import {ServiceService} from '../../../services/service.service';
 
 @Component({
   selector: 'app-multimedia',
@@ -14,7 +14,7 @@ export class MultimediaComponent implements OnInit {
   id: any;
   blogDetail: Blog | null = null;
 
-  constructor(activatedRouter: ActivatedRoute, public service: ServiceblogService, public router: Router) {
+  constructor(activatedRouter: ActivatedRoute, public router: Router, private service:ServiceService) {
     this.id = activatedRouter.snapshot.paramMap.get('id');
   }
 
