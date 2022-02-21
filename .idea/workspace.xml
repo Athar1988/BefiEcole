@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="221cd6aa-732e-45b1-98fa-67edd33bac49" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/accueil/liste-bts/liste-bts.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/accueil/liste-bts/liste-bts.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/accueil/liste-bts/liste-bts.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/accueil/liste-bts/liste-bts.component.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,29 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="liste-bts.component.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="liste-bts.component.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/accueil/liste-bts/liste-bts.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="138">
+              <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="liste-bts.component.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="liste-bts.component.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/accueil/liste-bts/liste-bts.component.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="19" column="82" selection-start-line="19" selection-start-column="82" selection-end-line="19" selection-end-column="82" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contenu.component.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/accueil/contenu/contenu.component.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="26" column="21" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="21" />
+            <state relative-caret-position="308">
+              <caret line="104" column="1" selection-start-line="104" selection-start-column="1" selection-end-line="104" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -112,8 +103,8 @@
         <option value="$PROJECT_DIR$/src/app/admin/ajoute-evenement/ajoute-evenement.component.html" />
         <option value="$PROJECT_DIR$/angular.json" />
         <option value="$PROJECT_DIR$/static.json" />
-        <option value="$PROJECT_DIR$/src/app/accueil/liste-bts/liste-bts.component.html" />
         <option value="$PROJECT_DIR$/src/app/accueil/liste-bts/liste-bts.component.css" />
+        <option value="$PROJECT_DIR$/src/app/accueil/liste-bts/liste-bts.component.html" />
       </list>
     </option>
   </component>
@@ -291,12 +282,12 @@
       <workItem from="1645104063829" duration="11882000" />
       <workItem from="1645170754754" duration="16293000" />
       <workItem from="1645197902162" duration="13165000" />
-      <workItem from="1645297601648" duration="25447000" />
+      <workItem from="1645297601648" duration="26290000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69332000" />
+    <option name="totallyTimeSpent" value="70175000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -629,24 +620,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/accueil/liste-bts/liste-bts.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/accueil/contenu/contenu.component.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="21" />
+        <state relative-caret-position="246">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/accueil/liste-bts/liste-bts.component.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="19" column="82" selection-start-line="19" selection-start-column="82" selection-end-line="19" selection-end-column="82" />
+        <state relative-caret-position="308">
+          <caret line="104" column="1" selection-start-line="104" selection-start-column="1" selection-end-line="104" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/accueil/liste-bts/liste-bts.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
         </state>
       </provider>
     </entry>
