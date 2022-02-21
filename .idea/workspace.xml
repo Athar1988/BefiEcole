@@ -2,60 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="221cd6aa-732e-45b1-98fa-67edd33bac49" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/blog/ecole1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/accueil/contact/contact.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/accueil/contact/contact.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/accueil/contact/contact.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/accueil/contact/contact.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/accueil/contenu/contenu.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/accueil/contenu/contenu.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/accueil/contenu/contenu.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/accueil/contenu/contenu.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/accueil/contenu/contenu.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/accueil/contenu/contenu.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/accueil/menu/menu.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/accueil/menu/menu.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/accueil/menu/menu.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/accueil/menu/menu.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/admin/ajoute-evenement/ajoute-evenement.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/ajoute-evenement/ajoute-evenement.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/admin/error/error.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/error/error.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/admin/error/error.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/error/error.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/apps/blog/blog-data.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/apps/blog/blog-service.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/apps/blog/blog-type.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/apps/blog/blog-type.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/apps/blog/formation/commerce/commerce.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/apps/blog/formation/commerce/commerce.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/apps/blog/formation/commerce/commerce.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/apps/blog/formation/commerce/commerce.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/apps/blog/formation/communication/communication.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/apps/blog/formation/communication/communication.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/apps/blog/formation/direction/direction.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/apps/blog/formation/direction/direction.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/apps/blog/formation/finance/finance.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/apps/blog/formation/finance/finance.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/apps/blog/formation/gestion/gestion.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/apps/blog/formation/gestion/gestion.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/apps/blog/formation/marketing/marketing.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/apps/blog/formation/marketing/marketing.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/apps/blog/formation/multimedia/multimedia.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/apps/blog/formation/multimedia/multimedia.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/apps/blog/formation/multimedia/multimedia.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/apps/blog/formation/multimedia/multimedia.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/apps/blog/formation/reseau/reseau.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/apps/blog/formation/reseau/reseau.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/apps/blog/formation/surmesure/surmesure.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/apps/blog/formation/surmesure/surmesure.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/apps/blog/formationbtp/btp-commerce/btp-commerce.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/apps/blog/formationbtp/btp-commerce/btp-commerce.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/apps/blog/formationbtp/btp-comptable/btp-comptable.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/apps/blog/formationbtp/btp-comptable/btp-comptable.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/apps/blog/formationbtp/btp-infographie/btp-infographie.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/apps/blog/formationbtp/btp-infographie/btp-infographie.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/apps/blog/formationbtp/btp-patisserie/btp-patisserie.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/apps/blog/formationbtp/btp-patisserie/btp-patisserie.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/apps/blog/formationbtp/btpdouanieres/btpdouanieres.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/apps/blog/formationbtp/btpdouanieres/btpdouanieres.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/apps/blog/formationbtp/btpgestion/btpgestion.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/apps/blog/formationbtp/btpgestion/btpgestion.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/apps/blog/formationbtp/btpmultimedia/btpmultimedia.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/apps/blog/formationbtp/btpmultimedia/btpmultimedia.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/apps/blog/formationbtp/btpvente/btpvente.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/apps/blog/formationbtp/btpvente/btpvente.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/apps/blog/institut/engage/engage.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/apps/blog/institut/engage/engage.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/admin-inscription/admin-inscription.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/admin-inscription/admin-inscription.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/ajoute-evenement/ajoute-evenement.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/ajoute-evenement/ajoute-evenement.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/ajoute-evenement/ajoute-evenement.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/ajoute-evenement/ajoute-evenement.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/apps/blog/institut/galerie/galerie.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/apps/blog/institut/galerie/galerie.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/apps/blog/institut/inscri-entreprise/inscri-entreprise.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/apps/blog/institut/inscri-entreprise/inscri-entreprise.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/apps/blog/institut/inscri-entreprise/inscri-entreprise.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/apps/blog/institut/inscri-entreprise/inscri-entreprise.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/apps/blog/institut/inscription-etudiant/inscription-etudiant.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/apps/blog/institut/inscription-etudiant/inscription-etudiant.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/apps/blog/institut/inscription-etudiant/inscription-etudiant.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/apps/blog/institut/inscription-etudiant/inscription-etudiant.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/apps/blog/institut/inscription-etudiant/inscription-etudiant.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/apps/blog/institut/inscription-etudiant/inscription-etudiant.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/apps/blog/institut/lavie/lavie.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/apps/blog/institut/lavie/lavie.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/apps/blog/institut/quinous/quinous.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/apps/blog/institut/quinous/quinous.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/apps/blog/institut/solutions/solutions.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/apps/blog/institut/solutions/solutions.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/apps/blog/institut/stage/stage.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/apps/blog/institut/stage/stage.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/apps/services/service.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/apps/services/service.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/logo-text.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/logos/white-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/logos/white-text.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/blog/ecole.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/landingpage/404.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/landingpage/Entreprise-concept.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/landingpage/about.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/landingpage/admin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/landingpage/banner-bg-old.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/landingpage/banner-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/landingpage/banner-bg2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/landingpage/benner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/landingpage/entreprise.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/landingpage/entreprise2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/landingpage/images.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/landingpage/lavie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static.json" beforeDir="false" afterPath="$PROJECT_DIR$/static.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -68,36 +39,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="menu.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/accueil/menu/menu.component.html">
+      <file leaf-file-name="commerce.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/apps/blog/formation/commerce/commerce.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="66" column="69" selection-start-line="66" selection-start-column="69" selection-end-line="66" selection-end-column="69" />
+            <state relative-caret-position="68">
+              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
               <folding>
-                <element signature="n#style#0;n#nav#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="inscription-etudiant.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/apps/blog/institut/inscription-etudiant/inscription-etudiant.component.html">
+      <file leaf-file-name="contact.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/accueil/contact/contact.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-510">
-              <caret line="159" column="19" lean-forward="true" selection-start-line="159" selection-start-column="19" selection-end-line="160" selection-end-column="33" />
+            <state relative-caret-position="34">
+              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="inscri-entreprise.component.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/app/apps/blog/institut/inscri-entreprise/inscri-entreprise.component.html">
+      <file leaf-file-name="ajoute-evenement.component.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/admin/ajoute-evenement/ajoute-evenement.component.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="176" column="18" selection-start-line="176" selection-start-column="18" selection-end-line="176" selection-end-column="18" />
+            <state relative-caret-position="221">
+              <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contenu.component.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/accueil/contenu/contenu.component.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ajoute-evenement.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/admin/ajoute-evenement/ajoute-evenement.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3383">
+              <caret line="2" column="67" selection-start-line="2" selection-start-column="67" selection-end-line="2" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -122,16 +110,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/app/apps/blog/contact/contact.component.ts" />
-        <option value="$PROJECT_DIR$/src/app/apps/blog/contact/contact.component.css" />
-        <option value="$PROJECT_DIR$/src/app/app-routing.module.ts" />
-        <option value="$PROJECT_DIR$/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/src/app/apps/blog/institut/inscription-etudiant/inscription-etudiant.component.ts" />
-        <option value="$PROJECT_DIR$/src/app/apps/blog/institut/galerie/galerie.component.html" />
-        <option value="$PROJECT_DIR$/src/app/admin/error/error.component.html" />
         <option value="$PROJECT_DIR$/src/app/admin/error/error.component.css" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/angular.json" />
         <option value="$PROJECT_DIR$/src/styles.css" />
         <option value="$PROJECT_DIR$/src/app/apps/blog/institut/quinous/quinous.component.html" />
         <option value="$PROJECT_DIR$/src/app/apps/blog/blog-data.ts" />
@@ -141,11 +121,8 @@
         <option value="$PROJECT_DIR$/src/app/accueil/contenu/contenu.component.ts" />
         <option value="$PROJECT_DIR$/src/app/apps/blog/formation/commerce/commerce.component.ts" />
         <option value="$PROJECT_DIR$/src/app/apps/blog/formation/multimedia/multimedia.component.ts" />
-        <option value="$PROJECT_DIR$/src/app/accueil/contenu/contenu.component.css" />
         <option value="$PROJECT_DIR$/src/app/apps/blog/institut/engage/engage.component.html" />
         <option value="$PROJECT_DIR$/src/app/apps/blog/institut/solutions/solutions.component.html" />
-        <option value="$PROJECT_DIR$/src/app/apps/blog/institut/lavie/lavie.component.html" />
-        <option value="$PROJECT_DIR$/src/app/apps/blog/institut/stage/stage.component.html" />
         <option value="$PROJECT_DIR$/src/app/apps/blog/institut/inscription-etudiant/inscription-etudiant.component.css" />
         <option value="$PROJECT_DIR$/src/app/apps/blog/institut/inscri-entreprise/inscri-entreprise.component.css" />
         <option value="$PROJECT_DIR$/src/app/apps/blog/formation/commerce/commerce.component.html" />
@@ -158,7 +135,6 @@
         <option value="$PROJECT_DIR$/src/app/apps/blog/formation/reseau/reseau.component.html" />
         <option value="$PROJECT_DIR$/src/app/apps/blog/formation/surmesure/surmesure.component.html" />
         <option value="$PROJECT_DIR$/src/app/accueil/contact/contact.component.css" />
-        <option value="$PROJECT_DIR$/src/app/accueil/contact/contact.component.html" />
         <option value="$PROJECT_DIR$/src/app/apps/blog/formationbtp/btpvente/btpvente.component.html" />
         <option value="$PROJECT_DIR$/src/app/apps/blog/formationbtp/btp-commerce/btp-commerce.component.html" />
         <option value="$PROJECT_DIR$/src/app/apps/blog/formationbtp/btp-comptable/btp-comptable.component.html" />
@@ -171,8 +147,20 @@
         <option value="$PROJECT_DIR$/src/app/apps/services/service.service.ts" />
         <option value="$PROJECT_DIR$/src/app/accueil/menu/menu.component.html" />
         <option value="$PROJECT_DIR$/src/app/admin/ajoute-evenement/ajoute-evenement.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/angular.json" />
+        <option value="$PROJECT_DIR$/static.json" />
+        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/app/admin/ajoute-evenement/ajoute-evenement.component.html" />
+        <option value="$PROJECT_DIR$/src/app/admin/admin-inscription/admin-inscription.component.html" />
+        <option value="$PROJECT_DIR$/src/app/apps/blog/institut/stage/stage.component.html" />
+        <option value="$PROJECT_DIR$/src/app/apps/blog/institut/lavie/lavie.component.html" />
+        <option value="$PROJECT_DIR$/src/app/apps/blog/institut/galerie/galerie.component.html" />
         <option value="$PROJECT_DIR$/src/app/apps/blog/institut/inscription-etudiant/inscription-etudiant.component.html" />
         <option value="$PROJECT_DIR$/src/app/apps/blog/institut/inscri-entreprise/inscri-entreprise.component.html" />
+        <option value="$PROJECT_DIR$/src/app/accueil/contact/contact.component.html" />
+        <option value="$PROJECT_DIR$/src/app/admin/ajoute-evenement/ajoute-evenement.component.css" />
+        <option value="$PROJECT_DIR$/src/app/accueil/contenu/contenu.component.css" />
       </list>
     </option>
   </component>
@@ -239,6 +227,21 @@
               <item name="BefiEcole" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="accueil" type="462c0819:PsiDirectoryNode" />
+              <item name="contenu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BefiEcole" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BefiEcole" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BefiEcole" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BefiEcole" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -248,41 +251,27 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BefiEcole" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BefiEcole" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="institut" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BefiEcole" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BefiEcole" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="institut" type="462c0819:PsiDirectoryNode" />
-              <item name="inscri-entreprise" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BefiEcole" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BefiEcole" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="institut" type="462c0819:PsiDirectoryNode" />
-              <item name="inscription-etudiant" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BefiEcole" type="b2602c69:ProjectViewProjectNode" />
               <item name="BefiEcole" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BefiEcole" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BefiEcole" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BefiEcole" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BefiEcole" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="landingpage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -384,12 +373,12 @@
       <workItem from="1645104063829" duration="11882000" />
       <workItem from="1645170754754" duration="16293000" />
       <workItem from="1645197902162" duration="13165000" />
-      <workItem from="1645297601648" duration="14291000" />
+      <workItem from="1645297601648" duration="17996000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58176000" />
+    <option name="totallyTimeSpent" value="61881000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -405,11 +394,11 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.35643566" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.35643566" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="bottom" id="TypeScript" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2344932" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2344932" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -432,301 +421,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/app/apps/blog/blog-data.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/apps/blog/blog-service.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/apps/blog/formation/commerce/commerce.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/accueil/contenu/contenu.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="43" column="41" lean-forward="true" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="69" column="20" lean-forward="true" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/apps/blog/formation/multimedia/multimedia.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="100" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/apps/blog/blog-type.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-utilities.rtl.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="1212" column="18" lean-forward="true" selection-start-line="1212" selection-start-column="18" selection-end-line="1212" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/accueil/contenu/contenu.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1079">
-          <caret line="132" column="12" selection-start-line="132" selection-start-column="12" selection-end-line="132" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/apps/blog/institut/pedagogie/pedagogie.component.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/apps/blog/institut/engage/engage.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/apps/blog/institut/quinous/quinous.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/apps/blog/institut/partenaires/partenaires.component.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/apps/blog/institut/lavie/lavie.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="41" column="33" lean-forward="true" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/apps/blog/institut/stage/stage.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/apps/blog/institut/solutions/solutions.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/accueil/menu/menu.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/apps/blog/institut/inscription-etudiant/inscription-etudiant.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/apps/blog/formation/commerce/commerce.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/apps/blog/formation/communication/communication.component.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/apps/blog/formation/communication/communication.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="79" column="8" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/apps/blog/formation/direction/direction.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="122" selection-start-line="122" selection-end-line="122" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/apps/blog/formation/finance/finance.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/apps/blog/formation/gestion/gestion.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="84" column="8" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/apps/blog/formation/marketing/marketing.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="122" column="16" selection-start-line="122" selection-start-column="16" selection-end-line="122" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/apps/blog/formation/multimedia/multimedia.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="121" selection-start-line="121" selection-end-line="121" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/apps/blog/formation/reseau/reseau.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="128" column="8" selection-start-line="128" selection-start-column="8" selection-end-line="128" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/apps/blog/formation/finance/finance.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/apps/blog/formation/surmesure/surmesure.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/accueil/contact/contact.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/accueil/contact/contact.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/apps/blog/institut/inscri-entreprise/inscri-entreprise.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/apps/blog/formationbtp/btpvente/btpvente.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="105" column="13" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/apps/blog/formationbtp/btp-commerce/btp-commerce.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="94" column="13" selection-start-line="94" selection-start-column="13" selection-end-line="94" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/apps/blog/formationbtp/btp-comptable/btp-comptable.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="96" column="8" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/apps/blog/formationbtp/btp-infographie/btp-infographie.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="87" column="8" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/apps/blog/formationbtp/btp-patisserie/btp-patisserie.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="77" column="8" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/apps/blog/formationbtp/btpdouanieres/btpdouanieres.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/apps/blog/formationbtp/btpgestion/btpgestion.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="78" column="8" selection-start-line="78" selection-start-column="8" selection-end-line="78" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/apps/blog/formationbtp/btpmultimedia/btpmultimedia.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="93" column="8" selection-start-line="93" selection-start-column="8" selection-end-line="93" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/admin/admin-inscription/admin-inscription.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/apps/services/service.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -737,9 +431,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/admin/admin-inscription/admin-inscription.component.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/app-routing.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -747,13 +438,6 @@
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/admin/ajoute-evenement/ajoute-evenement.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="53" column="84" selection-start-line="53" selection-start-column="84" selection-end-line="53" selection-end-column="84" />
         </state>
       </provider>
     </entry>
@@ -787,9 +471,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="94" column="12" lean-forward="true" selection-start-line="94" selection-end-line="95" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/accueil/menu/menu.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
+        <state relative-caret-position="8">
           <caret line="66" column="69" selection-start-line="66" selection-start-column="69" selection-end-line="66" selection-end-column="69" />
           <folding>
             <element signature="n#style#0;n#nav#0;n#!!top" expanded="true" />
@@ -801,17 +495,201 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1358">
+          <caret line="30" column="65" lean-forward="true" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-423">
+          <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/landingpage/404.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/landingpage/banner-bg2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/landingpage/banner-bg-old.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/landingpage/benner.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/landingpage/images.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/landingpage/ift.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/btp/101.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/blog/101.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/blog/202.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/blog/303.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/blog/404.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/blog/505.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/blog/707.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/blog/808.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/blog/ecole.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/blog/909.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/blog/ecole1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/blog/qui-sommes.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/landingpage/404.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/landingpage/about.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/landingpage/admin.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/landingpage/banner-bg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/landingpage/banner-formation.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/landingpage/benner1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/landingpage/entreprise2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/landingpage/entreprise.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/landingpage/lavie.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/landingpage/Entreprise-concept.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/apps/blog/institut/stage/stage.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="67" selection-start-line="2" selection-start-column="67" selection-end-line="2" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/apps/blog/institut/lavie/lavie.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="67" selection-start-line="2" selection-start-column="67" selection-end-line="2" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/apps/blog/institut/galerie/galerie.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="67" selection-start-line="2" selection-start-column="67" selection-end-line="2" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/admin/admin-inscription/admin-inscription.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="57" lean-forward="true" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/apps/blog/institut/inscription-etudiant/inscription-etudiant.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-510">
-          <caret line="159" column="19" lean-forward="true" selection-start-line="159" selection-start-column="19" selection-end-line="160" selection-end-column="33" />
+        <state relative-caret-position="34">
+          <caret line="2" column="67" selection-start-line="2" selection-start-column="67" selection-end-line="2" selection-end-column="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/apps/blog/institut/inscri-entreprise/inscri-entreprise.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="176" column="18" selection-start-line="176" selection-start-column="18" selection-end-line="176" selection-end-column="18" />
+        <state relative-caret-position="34">
+          <caret line="2" column="67" selection-start-line="2" selection-start-column="67" selection-end-line="2" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/apps/blog/formation/commerce/commerce.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/accueil/contact/contact.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/admin/ajoute-evenement/ajoute-evenement.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3383">
+          <caret line="2" column="67" selection-start-line="2" selection-start-column="67" selection-end-line="2" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/admin/ajoute-evenement/ajoute-evenement.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/accueil/contenu/contenu.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
         </state>
       </provider>
     </entry>

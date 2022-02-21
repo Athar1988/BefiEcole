@@ -39,32 +39,13 @@
   top: -7px;
   transition: all 0.2s ease-in, width 0.5s cubic-bezier(.45,-0.33,.43,1.46);
 }
-.btn2:after{
-  transform: rotate(180deg);
-  top: auto;
-  left: auto;
-  right: -7px;
-  bottom: -7px;
-}
-.btn2:hover:before,
-.btn2:hover:after{
-  width: 30%;
-}
-@media only screen and (max-width: 767px){
-  .btn2{ margin-bottom: 30px; }
-}
 
 
 
 
 
 
-.main-timeline{ font-family: 'Poppins', sans-serif; }
-.main-timeline:after{
-  content: '';
-  display: block;
-  clear: both;
-}
+
 .main-timeline .timeline{
   padding: 0 40px;
   margin: 0 0 50px;
@@ -165,9 +146,5 @@
     transform: translateY(0);
     top: 32px;
   }
-  .main-timeline .timeline-step{
-    transform: translateY(0);
-    top: 17px;
-  }
-  .main-timeline .title{ font-size: 22px; }
+
 }
