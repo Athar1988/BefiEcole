@@ -26,23 +26,32 @@
         </div>
 
 
-        <div class="col-md-12"  >
-          <div class="main-timeline">
 
-            <div class="timeline" *ngFor="let bl of blogs">
-              <a (click)="viewDetail(bl.Lien,bl.id)" class="timeline-content">
-                <div class="timeline-icon"><i class="{{bl.icon}}"></i> </div>
-                <div class="timeline-step"></div>
-                <h3 class="title">{{ bl.titre }}</h3>
-                <p class="description">
-                  {{ bl.description }}
-                </p>
-              </a>
+
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="main-timeline">
+
+
+                <div class="timeline"   *ngFor="let bl of blogs" >
+                  <a (click)="viewDetail(bl.Lien,bl.id)" class="timeline-content">
+                    <div class="timeline-year"><i class="{{bl.icon}}"></i></div>
+                    <h3 class="title">{{ bl.titre }}</h3>
+                    <p class="description">
+                      {{ bl.description }}
+                    </p>
+                  </a>
+                </div>
+
+              </div>
             </div>
-
-
           </div>
         </div>
+
+
+
 
 
 

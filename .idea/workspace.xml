@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="221cd6aa-732e-45b1-98fa-67edd33bac49" name="Default" comment="" />
+    <list default="true" id="221cd6aa-732e-45b1-98fa-67edd33bac49" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/accueil/liste-bts/liste-bts.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/accueil/liste-bts/liste-bts.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/accueil/liste-bts/liste-bts.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/accueil/liste-bts/liste-bts.component.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,56 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="inscri-entreprise.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/apps/blog/institut/inscri-entreprise/inscri-entreprise.component.ts">
+      <file leaf-file-name="liste-bts.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/accueil/liste-bts/liste-bts.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="70" column="27" lean-forward="true" selection-start-line="70" selection-start-column="27" selection-end-line="70" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="257">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajoute-evenement.component.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/admin/ajoute-evenement/ajoute-evenement.component.css">
+      <file leaf-file-name="liste-bts.component.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/accueil/liste-bts/liste-bts.component.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ajoute-evenement.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/admin/ajoute-evenement/ajoute-evenement.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="637">
-              <caret line="109" selection-start-line="109" selection-end-line="109" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ajoute-evenement.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/admin/ajoute-evenement/ajoute-evenement.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-102">
-              <caret line="163" selection-start-line="163" selection-end-line="163" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="angular.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/angular.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="59" column="46" lean-forward="true" selection-start-line="59" selection-start-column="46" selection-end-line="59" selection-end-column="46" />
+            <state relative-caret-position="240">
+              <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
             </state>
           </provider>
         </entry>
@@ -112,7 +80,6 @@
         <option value="$PROJECT_DIR$/src/app/apps/blog/formationbtp/btpmultimedia/btpmultimedia.component.html" />
         <option value="$PROJECT_DIR$/src/app/apps/services/service.service.ts" />
         <option value="$PROJECT_DIR$/src/app/accueil/menu/menu.component.html" />
-        <option value="$PROJECT_DIR$/static.json" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/app/admin/admin-inscription/admin-inscription.component.html" />
         <option value="$PROJECT_DIR$/src/app/apps/blog/institut/stage/stage.component.html" />
@@ -125,7 +92,6 @@
         <option value="$PROJECT_DIR$/src/app/accueil/contenu/contenu.component.ts" />
         <option value="$PROJECT_DIR$/src/app/accueil/contenu/contenu.component.html" />
         <option value="$PROJECT_DIR$/src/app/accueil/contenu/contenu.component.css" />
-        <option value="$PROJECT_DIR$/src/app/accueil/liste-bts/liste-bts.component.css" />
         <option value="$PROJECT_DIR$/src/app/apps/blog/institut/galerie/galerie.component.ts" />
         <option value="$PROJECT_DIR$/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/src/app/apps/blog/institut/galerie/galerie.component.html" />
@@ -133,11 +99,13 @@
         <option value="$PROJECT_DIR$/src/app/apps/blog/institut/album/album.component.ts" />
         <option value="$PROJECT_DIR$/src/app/apps/blog/institut/album/album.component.css" />
         <option value="$PROJECT_DIR$/src/app/apps/blog/institut/album/album.component.html" />
-        <option value="$PROJECT_DIR$/src/app/accueil/liste-bts/liste-bts.component.html" />
         <option value="$PROJECT_DIR$/src/app/apps/blog/institut/inscri-entreprise/inscri-entreprise.component.ts" />
         <option value="$PROJECT_DIR$/src/app/admin/ajoute-evenement/ajoute-evenement.component.css" />
         <option value="$PROJECT_DIR$/src/app/admin/ajoute-evenement/ajoute-evenement.component.html" />
         <option value="$PROJECT_DIR$/angular.json" />
+        <option value="$PROJECT_DIR$/static.json" />
+        <option value="$PROJECT_DIR$/src/app/accueil/liste-bts/liste-bts.component.html" />
+        <option value="$PROJECT_DIR$/src/app/accueil/liste-bts/liste-bts.component.css" />
       </list>
     </option>
   </component>
@@ -197,7 +165,15 @@
               <item name="BefiEcole" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="accueil" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BefiEcole" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BefiEcole" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="accueil" type="462c0819:PsiDirectoryNode" />
+              <item name="liste-bts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BefiEcole" type="b2602c69:ProjectViewProjectNode" />
@@ -320,12 +296,12 @@
       <workItem from="1645104063829" duration="11882000" />
       <workItem from="1645170754754" duration="16293000" />
       <workItem from="1645197902162" duration="13165000" />
-      <workItem from="1645297601648" duration="23517000" />
+      <workItem from="1645297601648" duration="25063000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67402000" />
+    <option name="totallyTimeSpent" value="68948000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -341,11 +317,11 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.35643566" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.35643566" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="bottom" id="TypeScript" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2344932" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2344932" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -368,12 +344,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/assets/images/btp/101.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/images/blog/101.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/images/blog/202.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -533,13 +503,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/accueil/liste-bts/liste-bts.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/accueil/contenu/contenu.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="892">
@@ -624,13 +587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/accueil/liste-bts/liste-bts.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/apps/blog/institut/inscri-entreprise/inscri-entreprise.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
@@ -672,6 +628,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="59" column="46" lean-forward="true" selection-start-line="59" selection-start-column="46" selection-end-line="59" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/blogApp/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/accueil/liste-bts/liste-bts.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/accueil/liste-bts/liste-bts.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
         </state>
       </provider>
     </entry>
