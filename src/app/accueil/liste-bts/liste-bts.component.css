@@ -17,7 +17,7 @@
 }
 .main-timeline .timeline-content{
   color: #000;
-  background: repeating-linear-gradient(#F8EFDE,#F8EFDE 20px,#ede6d7 20px,#ede6d7 22px );
+  background: repeating-linear-gradient(#e7f0d5,#E7F0D5 20px, #F6FFE4 20px,#F6FFE4 22px );
   text-align: center;
   min-height: 150px;
   padding: 60px 20px 20px;
