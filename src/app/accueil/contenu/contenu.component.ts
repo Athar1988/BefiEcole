@@ -45,15 +45,8 @@ export class ContenuComponent implements OnInit {
   }
 
 
-  blogs: Blog[] =this.serviceService.blogs;
 
     ngOnInit(): void {
-    if (this.serviceService.Blogs.length === 0)
-      this.serviceService.getBlog().subscribe((d: any) => (this.serviceService.Blogs = d));
   }
 
-
-  viewDetail(lien: string, id: number) {
-    this.serviceService.viewDetail(lien, id);
-  }
 }

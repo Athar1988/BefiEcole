@@ -41,25 +41,14 @@ export class InscriEntrepriseComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    console.log(this.aFormGroup+" avant");
     this.aFormGroup = this.formBuilder.group({
       recaptcha: ['', Validators.required]
     });
-    console.log(this.aFormGroup+" apres");
     this.siteKey = "6LdMol4dAAAAAJn1IE3V1Dv4cjoudpjgzPB_Gu0g";
     //this.trouve=true;
   }
 
-  handleExpire(){
 
-  }
-  handleReset(){
-
-  }
-  handleSuccess(data: any){
-    console.log(data);
-    this.captcha=true;
-  }
 
   ajoutEtreprise(entreprise: Entreprise) {
    /* if(this.captcha==true) {*/

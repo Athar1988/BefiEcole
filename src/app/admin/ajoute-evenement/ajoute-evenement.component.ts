@@ -108,13 +108,6 @@ export class AjouteEvenementComponent implements OnInit {
     }
 }
 
-  supprimerPhoto(id: any) {
-    this.service.supprimerPhoto("evenements", id).subscribe(
-      data=>{console.log("photo supprimée avec succé")},
-      err=>{console.log("probleme de reseau")}
-    )
-  }
-
   supprimerEntreprise(id: any) {
     this.service.supprimerEntreprise("entreprises", id).subscribe(
       data=>{console.log("Entreprise supprimée avec succé")},

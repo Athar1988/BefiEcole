@@ -45,6 +45,8 @@ import {BtpdouanieresComponent} from './apps/blog/formationbtp/btpdouanieres/btp
 import { ContenuComponent } from './accueil/contenu/contenu.component';
 import { ContactComponent } from './accueil/contact/contact.component';
 import {StageComponent} from './apps/blog/institut/stage/stage.component';
+import { ListeBTSComponent } from './accueil/liste-bts/liste-bts.component';
+import { AlbumComponent } from './apps/blog/institut/album/album.component';
 
 @NgModule({
   declarations: [
@@ -83,6 +85,8 @@ import {StageComponent} from './apps/blog/institut/stage/stage.component';
     InscriptionEtudiantComponent,
     ContenuComponent,
     ContactComponent,
+    ListeBTSComponent,
+    AlbumComponent,
   ],
   imports: [
     CommonModule,

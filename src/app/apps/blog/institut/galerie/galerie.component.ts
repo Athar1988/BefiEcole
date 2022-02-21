@@ -8,19 +8,9 @@ import {ServiceService} from '../../../services/service.service';
 })
 export class GalerieComponent implements OnInit {
   imagePath='../assets/images/innerpage/qui-sommes.jpg';
-  listeImage:any;
-  constructor(private service:ServiceService) { }
+  constructor() { }
 
   ngOnInit(): void {
-    this.service.getImage("evenements").subscribe(
-      data=>{
-        this.listeImage=data;
-      },
-      err=>{
-        console.log("probleme de reseau");
-      }
-    )
-
   }
 
 }
