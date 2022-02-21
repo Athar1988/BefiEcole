@@ -3,30 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="221cd6aa-732e-45b1-98fa-67edd33bac49" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/accueil/contenu/contenu.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/accueil/contenu/contenu.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/admin/admin-inscription/admin-inscription.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/admin-inscription/admin-inscription.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/admin/ajoute-evenement/ajoute-evenement.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/ajoute-evenement/ajoute-evenement.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/admin/ajoute-evenement/ajoute-evenement.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/ajoute-evenement/ajoute-evenement.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/apps/blog/institut/galerie/galerie.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/apps/blog/institut/galerie/galerie.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/apps/blog/institut/inscri-entreprise/inscri-entreprise.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/apps/blog/institut/inscri-entreprise/inscri-entreprise.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/apps/blog/institut/inscription-etudiant/inscription-etudiant.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/apps/blog/institut/inscription-etudiant/inscription-etudiant.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/apps/blog/institut/lavie/lavie.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/apps/blog/institut/lavie/lavie.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/apps/blog/institut/stage/stage.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/apps/blog/institut/stage/stage.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/blog/ecole.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/landingpage/404.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/landingpage/Entreprise-concept.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/landingpage/about.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/landingpage/admin.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/landingpage/banner-bg-old.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/landingpage/banner-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/landingpage/banner-bg2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/landingpage/benner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/landingpage/entreprise.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/landingpage/entreprise2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/landingpage/images.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/landingpage/lavie.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static.json" beforeDir="false" afterPath="$PROJECT_DIR$/static.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -39,53 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="commerce.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/apps/blog/formation/commerce/commerce.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/accueil/contact/contact.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ajoute-evenement.component.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/admin/ajoute-evenement/ajoute-evenement.component.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="contenu.component.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/accueil/contenu/contenu.component.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="206">
-              <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ajoute-evenement.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/admin/ajoute-evenement/ajoute-evenement.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3383">
-              <caret line="2" column="67" selection-start-line="2" selection-start-column="67" selection-end-line="2" selection-end-column="67" />
+              <caret line="148" selection-start-line="148" selection-end-line="148" />
             </state>
           </provider>
         </entry>
@@ -219,43 +155,6 @@
               <item name="BefiEcole" type="b2602c69:ProjectViewProjectNode" />
               <item name="BefiEcole" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="accueil" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BefiEcole" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BefiEcole" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="accueil" type="462c0819:PsiDirectoryNode" />
-              <item name="contenu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BefiEcole" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BefiEcole" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BefiEcole" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BefiEcole" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BefiEcole" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BefiEcole" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BefiEcole" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BefiEcole" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -373,16 +272,15 @@
       <workItem from="1645104063829" duration="11882000" />
       <workItem from="1645170754754" duration="16293000" />
       <workItem from="1645197902162" duration="13165000" />
-      <workItem from="1645297601648" duration="17996000" />
+      <workItem from="1645297601648" duration="18989000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61881000" />
+    <option name="totallyTimeSpent" value="62874000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -672,13 +570,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/admin/ajoute-evenement/ajoute-evenement.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3383">
-          <caret line="2" column="67" selection-start-line="2" selection-start-column="67" selection-end-line="2" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/admin/ajoute-evenement/ajoute-evenement.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -686,10 +577,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/admin/ajoute-evenement/ajoute-evenement.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2312">
+          <caret line="2" column="67" selection-start-line="2" selection-start-column="67" selection-end-line="2" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/accueil/contenu/contenu.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
-          <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
+          <caret line="148" selection-start-line="148" selection-end-line="148" />
         </state>
       </provider>
     </entry>
