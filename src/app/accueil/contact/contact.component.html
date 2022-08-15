@@ -103,7 +103,8 @@
                 <input
                   [(ngModel)]="telephone"
                   type="text"
-                  #objetInput="ngModel"
+                  #telephoneInput="ngModel"
+                  pattern="[0-9]{8}"
                   required
                   ngModel
                   id="telephone"
@@ -115,7 +116,12 @@
                   required=""
                   aria-required="true">
               </div>
-
+              <div
+                *ngIf="telephoneInput.invalid && telephoneInput.dirty"
+                class="alert alert-danger"
+              >
+                Le téléphone est obliogatoire et doit être correct
+              </div>
               <div>
                 <label for="objet">Objet</label>
                 <input
